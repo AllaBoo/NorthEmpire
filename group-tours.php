@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/NE_style.css">
-  <title>Туры для школьников в Москву</title>
+  <title>Туры для корпоративных групп в Москву</title>
   <meta name="description"
-    content="Экскурсионные туры в Москву для мини-групп школьников от 5 человек. Проходит в период школьных каникул. Экскурсионная программа тура построена с учётом особенностей школьников." />
-  <meta name="Keywords" content="экскурсионный тур в Москву для школьников, тур в Москву на каникулы" />
+    content="Экскурсионные туры в Москву для организованных групп от 5 человек. Подходят для профкомов, проведения профессиональных праздников, поощрительных поездок. Экскурсионная программа предусматривает знакомство с основными достопримечательностями и свободное время." />
+  <meta name="Keywords" content="экскурсионный тур в Москву для групп взрослых, экскурсионный тур в Москву для корпоративных групп" />
 </head>
 
 
@@ -30,11 +30,11 @@
             <p class="tour-list__caption">круглый год</p>
           </div>
           <div class="tour-list__conteiner-icon">
-            <img src="images/icons/5i1.png" alt="Пиктограмма сборный тур" class="tour-list__icon">
+            <img src="images/icons/group.png" alt="Пиктограмма групповой тур" class="tour-list__icon">
             <p class="tour-list__caption">тур для групп</p>
           </div>
           <div class="tour-list__conteiner-icon">
-            <img src="images/icons/school.png" alt="Пиктограмма туры для школьников" class="tour-list__icon">
+            <img src="images/icons/adults.jpg" alt="Пиктограмма туры для групп" class="tour-list__icon">
             <p class="tour-list__caption">взрослые</p>
           </div>
         </div>
@@ -45,7 +45,7 @@
           <p class="tour-list__seo-text">Экскурсионный тур в Москву для организованных групп</p>
           <p class="tour-list__date">2 дня</p>
           <details class="tour-list__details">
-            <summary class="tour-list__summary summary">7 музеев:</summary>
+            <summary class="tour-list__summary summary">2 музея:</summary>
             <ul class="tour-list__museums">
               <li class="tour-list__museum">Кремль</li>
               <li class="tour-list__museum">Третьяковская галерея</li>

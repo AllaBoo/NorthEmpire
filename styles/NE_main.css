@@ -320,7 +320,7 @@
 @media (max-width: 500px) {
   .contacts__text  {
     margin: 3rem 1rem 1rem 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -396,7 +396,7 @@
 
 @media (max-width: 500px) {
   .contacts__link  {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 .contacts__icon {
@@ -422,6 +422,7 @@
 
 .main-menu__card {
   display: flex;
+  flex-wrap: wrap;
   border-radius: 40px;
   border: 5px #d3611e dotted;
   margin: 2rem;
@@ -443,9 +444,10 @@
   margin: 0;
 }
 
+
 @media (max-width: 1200px) {
   .main-menu__title {
-    margin: 1rem auto;
+    margin: 1rem auto 0;
     text-align: center;
   }
 }
@@ -454,33 +456,69 @@
   color: #fff;
 }
 
+.main-menu__text-link:visited {
+  color: #fff;
+}
+
 .main-menu__subtitle {
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
 }
 
 @media (max-width: 1200px) {
   .main-menu__subtitle {
-    margin: .5rem auto;
     text-align: center;
   }
 }
 
-@media (max-width: 400px) {
-  .main-menu__subtitle {
-    margin: 1rem auto;
+
+.main-menu__text-descktop {
+  font-size: 1rem;
+  text-align: justify;
+  margin: 1rem 0 0 0;
+  display: block;
+}
+
+@media (max-width: 450px) {
+  .main-menu__text-descktop {
+    display: none;
   }
 }
 
-.main-menu__text {
+.main-menu__text-mobile {
   font-size: 1rem;
   text-align: justify;
   margin: 1rem 0;
 }
 
-@media (max-width: 400px) {
-  .main-menu__text {
-    display: none;
+
+.main-menu__details {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .main-menu__details {
+    display: block;
+    width: 100%;
+  }
+}
+
+.main-menu__summary {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .main-menu__summary {
+    display: block;
+    width: -moz-fit-content; 
+    width: -webkit-fit-content; 
+    width: fit-content;
+    margin: 1rem auto 2rem auto;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: grey;
   }
 }
 
@@ -533,15 +571,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 70%;
+  width: 65%;
 }
 
 .main-menu__description_right {
-  margin: 0 0 2rem 3rem;
+  margin: 0 0 1rem 3rem;
 }
 
 .main-menu__description_left {
-  margin: 0 3rem 2rem 0;
+  margin: 0 3rem 1rem 0;
 }
 
 @media (max-width: 1200px) {
@@ -551,15 +589,14 @@
   }
   .main-menu__description_right {
     margin: 1rem 0;
-    border-top: 5px #d3611e dotted;
+    border-top: 5px #ffffff dotted;
   }
   
   .main-menu__description_left {
     margin: 1rem 0;
-    border-top: 5px #d3611e dotted;
+    border-top: 5px #ffffff  dotted;
   }
 }
-
 
 .main-menu__link {
   width: -moz-fit-content; 
@@ -584,5 +621,81 @@
   .main-menu__link {
     font-size: 1.5rem;
   }
+}
 
+
+.main-menu__sub-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  border-top: #ffffff dotted 5px;
+}
+
+
+@media (max-width: 1250px) {
+  .main-menu__sub-nav {
+    justify-content: center;
+  }
+}
+
+.main-menu__icon {
+  height: 40px;
+  margin-right: .75rem;
+}
+
+.main-menu__sub-link {
+  width: 15rem;
+  color: #ffffff;
+  text-shadow: 2px 0 2px #000, 
+  0 1px 1px #000, 
+  -1px 0 1px #000, 
+  0 -1px 1px #000;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: left;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: .5rem;
+  margin: 1rem auto 0;
+  transform: skew(-20deg);
+}
+
+@media (max-width: 450px) {
+  .main-menu__sub-link {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    font-size: 2rem;
+  }
+}
+.main-menu__sub-link_autumn {
+  background-image: linear-gradient(rgb(248, 197, 14), rgb(232, 93, 13));
+}
+
+.main-menu__sub-link_winter {
+  background-image: linear-gradient(rgb(147, 219, 248), rgb(22, 102, 241));
+}
+
+.main-menu__sub-link_summer {
+  background-image: linear-gradient(rgb(224, 236, 0), rgb(34, 221, 13));
+}
+
+.main-menu__sub-link_spring {
+  background-image: linear-gradient(#f790dd, rgb(231, 54, 68));
+}
+
+.main-menu__sub-link_all {
+  background-image: linear-gradient(#ffffff, rgb(44, 40, 40));
+  font-size: 1.5rem;
+}
+
+@media (max-width: 450px) {
+  .main-menu__sub-link_all {
+    width: 90%;
+  }
 }

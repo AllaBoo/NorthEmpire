@@ -23,7 +23,7 @@
 
 @media (max-width: 375px) {
   .html {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -1151,7 +1151,7 @@ tr:hover {background: #d9d7d7;}
   padding: 1rem;
   display: flex;
   justify-content: flex-start;
-  align-content: flex-start;
+  align-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -1190,7 +1190,17 @@ tr:hover {background: #d9d7d7;}
 }
 
 .tour-list__card_all-seasons {
-  background-image:  radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+  background-image: url(/images/icons/all_seasons_border_small.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem;
+}
+
+@media (max-width: 1400px) {
+  .tour-list__card {
+    padding: 3rem 1rem;
+  }
 }
 
 .tour-list__span {
