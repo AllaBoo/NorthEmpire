@@ -1,6 +1,6 @@
 <div class="skew-cc"></div>
   <section class="contacts">
-    <a href="https://north-empire.com" target="_self"><img src="../../images/logoNE.png"
+    <a href="https://north-empire.com"><img src="../../images/logoNE.png"
         alt="Логотип Северной Империи - туроператора по Москве" class="contacts__logo"></a>
     <div class="contacts_column">
       <p class="contacts__text">«Северная Империя»&nbsp;&mdash;

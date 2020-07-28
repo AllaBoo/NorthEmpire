@@ -403,7 +403,6 @@
   height: 40px;
 }
 
-
 .heading__name {
   margin: .5rem 0;
   text-align: center;
@@ -414,6 +413,7 @@
   -1px 0 1px #000, 
   0 -1px 1px #000;
 }
+
 
 .main-menu__cards {
   display: flex;

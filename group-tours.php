@@ -25,17 +25,17 @@
 
       <div class="tour-list__card tour-list__card_all-seasons">
         <div class="tour-list__icons">
-          <div class="tour-list__conteiner-icon">
-            <img src="images/icons/all_seasons.png" alt="Пиктограмма сезон круглогодичный" class="tour-list__icon">
-            <p class="tour-list__caption">круглый год</p>
+          <div class="icon">
+            <img src="images/icons/all_seasons.png" alt="Пиктограмма сезон круглогодичный" class="icon__img">
+            <p class="icon__caption">круглый год</p>
           </div>
-          <div class="tour-list__conteiner-icon">
-            <img src="images/icons/group.png" alt="Пиктограмма групповой тур" class="tour-list__icon">
-            <p class="tour-list__caption">тур для групп</p>
+          <div class="icon">
+            <img src="images/icons/group.png" alt="Пиктограмма групповой тур" class="icon__img">
+            <p class="icon__caption">тур для групп</p>
           </div>
-          <div class="tour-list__conteiner-icon">
-            <img src="images/icons/adults.jpg" alt="Пиктограмма туры для групп" class="tour-list__icon">
-            <p class="tour-list__caption">взрослые</p>
+          <div class="icon">
+            <img src="images/icons/adults.jpg" alt="Пиктограмма туры для групп" class="icon__img">
+            <p class="icon__caption">взрослые</p>
           </div>
         </div>
         <img src="images/photo/vert_autumn_RedSquare_day.jpg" alt="Красная площадь осенью" class="tour-list__photo">
@@ -55,17 +55,17 @@
             class="tour-list__button tour-list__button_autumn">Программа тура</a>
         </div>
         <div class="tour-list__icons">
-          <div class="tour-list__conteiner-icon">
-            <img src="images/icons/bus.png" alt="Пиктограмма транспорт в туре" class="tour-list__icon">
-            <p class="tour-list__caption">все дни тура</p>
+          <div class="icon">
+            <img src="images/icons/bus.png" alt="Пиктограмма транспорт в туре" class="icon__img">
+            <p class="icon__caption">все дни тура</p>
           </div>
-          <div class="tour-list__conteiner-icon">
-            <img src="images/icons/meel.png" alt="Пиктограмма питание в туре" class="tour-list__icon">
-            <p class="tour-list__caption">1 завтрак, 2 обеда</p>
+          <div class="icon">
+            <img src="images/icons/meel.png" alt="Пиктограмма питание в туре" class="icon__img">
+            <p class="icon__caption">1 завтрак, 2 обеда</p>
           </div>
-          <div class="tour-list__conteiner-icon">
-            <img src="images/icons/balance.png" alt="Пиктограмма туры для школьников" class="tour-list__icon">
-            <p class="tour-list__caption">комфорт класс</p>
+          <div class="icon">
+            <img src="images/icons/balance.png" alt="Пиктограмма туры для школьников" class="icon__img">
+            <p class="icon__caption">комфорт класс</p>
           </div>
         </div>
       </div>
