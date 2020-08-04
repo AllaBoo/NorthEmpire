@@ -1,4 +1,4 @@
-<div class="skew-cc"></div>
+<div class="skew-cc skew-cc_contacts"></div>
   <section class="contacts">
     <a href="https://north-empire.com"><img src="../../images/logoNE.png"
         alt="Логотип Северной Империи - туроператора по Москве" class="contacts__logo"></a>
@@ -29,4 +29,4 @@
       </div>
     </div>
   </section>
-  <div class="skew-c"></div>
+  <div class="skew-c skew-c_contacts"></div>

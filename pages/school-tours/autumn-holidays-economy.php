@@ -29,10 +29,10 @@
     <nav class="heading__nav">
       <ul class="heading__list">
         <li class="heading__list-item">
-          <a href=" #program" target="_blank" class="heading__anchor">&nbsp;Программа тура&nbsp;</a>
+          <a href=" #program" class="heading__anchor">&nbsp;Программа тура&nbsp;</a>
         </li>
         <li class="heading__list-item">
-          <a href=" #price" target="_blank" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
+          <a href=" #price" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
         </li>
         <!-- <li class="heading__list-item">
           <a href="https://north-empire.com/tour-programs/2021-NewYear-Moscow-school-tur-5i1-economy.pdf" target="_blank"
@@ -57,65 +57,74 @@
     <?php include("../../blocks/advantages/meel.php"); ?>
     </div>
   </section>
+  <a name="program"></a>
   <div class="skew-cc"></div>
   <section class="white-block">
-    <a name="form" class="anchor"></a>
-    <h2 class="title">Краткая информация о туре</h2>
-    <div class="info__container">
-      <div class="info__cards">
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/barcode.png" alt="Пиктограмма название тура">
-          <p class="info__title">Название:</p>
-          <p class="info__description">«Эконом-тур на осенние каникулы в Москву»</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/sborny.jpg" alt="Пиктограмма тип тура">
-          <p class="info__title">Тип:</p>
-          <p class="info__description">сборный тур</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/school.jpg" alt="Пиктограмма школьник">
-          <p class="info__title">Туристы:</p>
-          <p class="info__description">школьники</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/calendar_horizontal.png" alt="Пиктограмма календарь тура">
-          <p class="info__title">4 дня:</p>
-          <p class="info__description">27-30 октября 2020 года</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/calendar_horizontal.png" alt="Пиктограмма календарь тура">
-          <p class="info__title">5 дней:</p>
-          <p class="info__description">26-30 октября 2020 года</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/spoon-fork.png" alt="Пиктограмма питание в туре">
-          <p class="info__title">Питание:</p>
-          <p class="info__description">2-разовое</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/bus.png" alt="Пиктограмма транспорт в туре">
-          <p class="info__title">Автобус:</p>
-          <p class="info__description">только в день начала и окончания тура</p>
+  <h2 class="title">Краткая информация о туре</h2>
+  <div class="tour-list__icons">
+    <?php include("../../blocks/icons/5i1.php"); ?>
+    <?php include("../../blocks/icons/school.php"); ?>
+    <p class="card__text card__text_center">«Эконом-тур на&nbsp;осенние каникулы в&nbsp;Москву»</p>
+    <?php include("../../blocks/icons/economy.php"); ?>
+    <?php include("../../blocks/icons/autumn.php"); ?>
+  </div>
+  <div class="info">
+    <div class="card card_half">
+      <div class="card">
+        <img class="card__image card__image_small" src="../../images/icons/calendar.jpg" alt="Календарь">
+        <div class="card__description card__description_big">
+          <h4 class="card__title">Даты:</h4>
+          <p class="card__text">26-30 октября 2020 года</p>
+          <p class="card__text">5 дней</p>
         </div>
       </div>
-
-      <div class="info__museums">
-        <div class="info__card info__card_museums">
-          <img class="info__pic" src="../../images/icons/map.png" alt="Объекты показа">
-          <p class="info__title">Музеи:</p>
-
-          <ul class="info__museums-list">
-            <li class="info__museum">архитектурный макет Москвы</li>
-          </ul>
+      <div class="card">
+        <img class="card__image card__image_small" src="../../images/icons/spoon-fork.png" alt="Питание">
+        <div class="card__description card__description_big">
+          <h4 class="card__title">Питание:</h4>
+          <p class="card__text">2-разовое</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image card__image_small" src="../../images/icons/bus.png" alt="Автобус">
+        <div class="card__description card__description_big">
+          <h4 class="card__title">Автобус:</h4>
+          <p class="card__text">в день заезда и выезда</p>
         </div>
       </div>
     </div>
-  </section>
+
+    <div class="card card_half">
+    <div class="card">
+      <img class="card__image card__image_small" src="../../images/icons/map.png" alt="Объекты показа">
+      <div class="card__description card__description_big">
+        <h4 class="card__title">Музеи:</h4>
+        <ul class="info__museums-list">
+            <li class="info__museum">архитектурный макет Москвы</li>
+          </ul>
+      </div>
+    </div>
+      <div class="card">
+      <img class="card__image card__image_small" src="../../images/icons/picking.png" alt="Экскурсии">
+        <div class="card__description card__description_big">
+          <h4 class="card__title">Экскурсии:</h4>
+          <ul class="info__museums-list">
+            <li class="info__museum">автобусная обзорная по Москве</li>
+            <li class="info__museum">пешеходная по Красной площади</li>
+            <li class="info__museum">пешеходная по Замоскворечью</li>
+            <li class="info__museum">пешеходная по Арбату</li>
+            <li class="info__museum">пешеходная по ВДНХ</li>
+            <li class="info__museum">пешеходная по усадьбе Коломенское</li>
+          </ul>
+        </div>
+    </div>
+    </div>
+
+  </div>
+</section>
 
   <div class="skew-c"></div>
   <main class="colour-block">
-    <a name="program"></a>
 
     <h2 class="title">Программа тура</h2>
     <p class="tour__mark">Выберите день и вам откроется подробная программа экскурсионного тура:</p>
@@ -132,20 +141,19 @@
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <?php include("../../blocks/excursions/hotel.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
+        <div class="card__description card__description_big">
           <p class="card__title"><i>За доплату экскурсии в музеи:</i></p>
           <p class="card__text"><i>Московский Кремль, Оружейная палата, Исторический музей, Зоологический музей. Заказ и оплата строго при бронировании тура!</i></p>
+          <p class="card__text card__text_right spacing">Продолжительность: 1,5&nbsp;часа.</p>
         </div>
-        <p class="card__text spacing">Продолжительность:
-        <span class="card__span">1,5 часа.</span></p>
-      </div>
+</div>
     </details>
 
     <details class="day">
       <summary class="day__summary summary">
       27 октября (вторник)
-        <h3 class="day__sightseeing">Замоскворечье</p>
+        <h3 class="day__sightseeing">Замоскворечье</h3>
       </summary>
 
       <details class="day">
@@ -156,8 +164,8 @@
       <?php include("../../blocks/excursions/breakfast_cafe.php"); ?>
       <?php include("../../blocks/excursions/Zamoskvoreche.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
+        <div class="card__description card__description_big">
           <p class="card__title"><i>За доплату экскурсия в музей:</i></p>
           <p class="card__text"><i>Третьяковская галерея и дополнительное время работы автобуса и гида. Заказ и оплата строго при бронировании тура!</i></p>
         </div>
@@ -165,14 +173,13 @@
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <?php include("../../blocks/excursions/hotel.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/bus.png" alt="Пиктограмма автобус">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/bus.png" alt="Пиктограмма автобус">
+        <div class="card__description card__description_big card__description card__description_big_big">
           <p class="card__title">Автобус</p>
           <p class="card__text">предоставляется для встречи на вокзале, трансфера в кафе и гостиницу.</p>
+          <p class="card__text card__text_right spacing">Продолжительность: 5&nbsp;часов.</p>
         </div>
-        <p class="card__text spacing">Продолжительность:
-        <span class="card__span">5 часов.</span></p>
-      </div>
+</div>
       </details>
       
       <details class="day">
@@ -185,14 +192,13 @@
       <?php include("../../blocks/excursions/Zamoskvoreche.php"); ?>
       <?php include("../../blocks/excursions/finish_center.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
+        <div class="card__description card__description_big">
           <p class="card__title"><i>За доплату экскурсия в музей:</i></p>
           <p class="card__text"><i>Третьяковская галерея. Заказ и оплата строго при бронировании тура!</i></p>
+          <p class="card__text card__text_right spacing">Продолжительность: 1,5&nbsp;часа.</p>
         </div>
-        <p class="card__text spacing">Продолжительность:
-        <span class="card__span">1,5 часа.</span></p>
-      </div>
+</div>
       </details>
       <p class="card__text">Выберите количество дней и вам откроется подробная программа экскурсионного тура.</p>
       <p class="card__text">Для тура на 5 дней это пешеходный день, для тура на 4 дня это автобусный день.</p>
@@ -201,21 +207,20 @@
     <details class="day">
       <summary class="day__summary summary">
       28 октября (среда)
-        <h3 class="day__sightseeing">Арбат</p>
+        <h3 class="day__sightseeing">Арбат</h3>
       </summary>
       <?php include("../../blocks/excursions/breakfast_hotel.php"); ?>
       <?php include("../../blocks/excursions/meet_hotel.php"); ?>
       <?php include("../../blocks/excursions/metro-extra-pay.php"); ?>
       <?php include("../../blocks/excursions/Arbat.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
+        <div class="card__description card__description_big">
           <p class="card__title"><i>За доплату экскурсии в музеи:</i></p>
           <p class="card__text"><i>литературный музей А.С. Пушкина на Арбате, музей изобразительных искусств им. А. С. Пушкина, Панорама 360. Заказ и оплата строго при бронировании тура!</i></p>
+          <p class="card__text card__text_right spacing">Продолжительность: 1,5&nbsp;часа.</p>
         </div>
-        <p class="card__text spacing">Продолжительность:
-        <span class="card__span">1,5 часа.</span></p>
-      </div>
+</div>
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <?php include("../../blocks/excursions/finish_center.php"); ?>
     </details>
@@ -223,21 +228,20 @@
     <details class="day">
       <summary class="day__summary summary">
       29 октября (четверг)
-        <h3 class="day__sightseeing">ВДНХ.</p>
+        <h3 class="day__sightseeing">ВДНХ</h3>
       </summary>
       <?php include("../../blocks/excursions/breakfast_hotel.php"); ?>
       <?php include("../../blocks/excursions/meet_hotel.php"); ?>
       <?php include("../../blocks/excursions/VDNH_architecture.php"); ?>
       <?php include("../../blocks/excursions/VDNH_quiz.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
+        <div class="card__description card__description_big">
           <p class="card__title"><i>За доплату экскурсии в музеи:</i></p>
           <p class="card__text"><i>Москвариум, филиал Политехнического музея «Россия делает сама», павильон «Космонавтика и Авиация», музей космонавтики.  Заказ и оплата строго при бронировании тура!</i></p>
+          <p class="card__text card__text_right spacing">Продолжительность: 1,5&nbsp;часа.</p>
         </div>
-        <p class="card__text spacing">Продолжительность:
-        <span class="card__span">1,5 часа.</span></p>
-      </div>
+</div>
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <?php include("../../blocks/excursions/finish_center.php"); ?>
     </details>
@@ -245,30 +249,28 @@
     <details class="day">
       <summary class="day__summary summary">
       30 октября (пятница)
-        <h3 class="day__sightseeing">Коломенское</p>
+        <h3 class="day__sightseeing">Коломенское</h3>
       </summary>
       <?php include("../../blocks/excursions/breakfast_hotel.php"); ?>
       <?php include("../../blocks/excursions/meet_hotel.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/bus.png" alt="Пиктограмма автобус">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/bus.png" alt="Пиктограмма автобус">
+        <div class="card__description card__description_big">
           <p class="card__title">Трансфер</p>
           <p class="card__text">на вокзал, сдача багажа в камеру хранения (стоимость услуги камеры хранения оплачивается дополнительно ~ 350-450 рублей за 1 место багажа). 
 Переезд на автобусе в музей Коломенское. Окончание работы автобуса.</p>
+<p class="card__text card__text_right spacing">Продолжительность: 1&nbsp;час.</p>
         </div>
-        <p class="card__text spacing">Продолжительность:
-        <span class="card__span">1 час.</span></p>
-      </div>
+</div>
       <?php include("../../blocks/excursions/Kolomenskoe.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/extra.jpg" alt="Пиктограмма доплата">
+        <div class="card__description card__description_big">
           <p class="card__title"><i>За доплату экскурсии в музеи:</i></p>
           <p class="card__text"><i>Дворец царя Алексея Михайловича в Коломенском, посещение Передних врат. Заказ и оплата строго при бронировании тура!</i></p>
+          <p class="card__text card__text_right spacing">Продолжительность: 1,5&nbsp;часа.</p>
         </div>
-        <p class="card__text spacing">Продолжительность:
-        <span class="card__span">1,5 часа.</span></p>
-      </div>
+</div>
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <?php include("../../blocks/excursions/finish_center.php"); ?>
     </details>

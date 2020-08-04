@@ -202,19 +202,16 @@
           <p class="tour-list__date">со 02 по 10&nbsp;января 2021</p>
           <p class="tour-list__date">от 2 до 5 дней</p>
           <details class="tour-list__details">
-            <summary class="tour-list__summary summary">12 музеев:</summary>
+            <summary class="tour-list__summary summary">8 музеев:</summary>
             <ul class="tour-list__museums">
-              <li class="tour-list__museum">Кремль</li>
-              <li class="tour-list__museum">канатная дорога</li>
+            <li class="tour-list__museum">Кремль</li>
+              <li class="tour-list__museum">музей космонавтики</li>
               <li class="tour-list__museum">Мосфильм </li>
-              <li class="tour-list__museum">Мелихово (усадьба Чехова)</li>
               <li class="tour-list__museum">музей Победы</li>
-              <li class="tour-list__museum">Бородинская битва</li>
               <li class="tour-list__museum">Третьяковская галерея</li>
               <li class="tour-list__museum">макет Москвы</li>
               <li class="tour-list__museum">ВДНХ</li>
-              <li class="tour-list__museum">музей Космонавтики</li>
-              <li class="tour-list__museum">усадьба Царицыно</li>
+              <li class="tour-list__museum">музей истории Москвы</li>
               <li class="tour-list__museum">усадьба Коломенское</li>
             </ul>
           </details>
@@ -281,6 +278,162 @@
             <img src="images/icons/economy.png" alt="Пиктограмма эконом класс" class="icon__img">
             <p class="icon__caption">эконом класс</p>
           </div>
+        </div>
+      </div>
+
+      <div class="tour-list__card tour-list__card_autumn">
+        <div class="tour-list__icons">
+          <?php include("blocks/icons/autumn.php"); ?>
+          <?php include("blocks/icons/group.php"); ?>
+          <?php include("blocks/icons/school.php"); ?>
+        </div>
+        <img src="images/photo/vert_all_VDNH.jpg" alt="ВДНХ" class="tour-list__photo">
+        <div class="tour-list__description">
+          <h2 class="tour-list__title"><a href="https://north-empire.com/pages/school-tours/2-days-constructor.php"
+              class="tour-list__link tour-list__link_autumn">Осенние краски Москвы</a></h2>
+          <p class="tour-list__seo-text">Экскурсионный тур в Москву для групп школьников на осенние каникулы</p>
+          <p class="tour-list__date">2 дня</p>
+          <details class="tour-list__details">
+            <summary class="tour-list__summary summary">3 музея:</summary>
+            <ul class="tour-list__museums">
+              <li class="tour-list__museum">Бородинская панорама</li>
+              <li class="tour-list__museum">музей изобразительных искусств им. Пушкина</li>
+              <li class="tour-list__museum">Мосфильм</li>
+            </ul>
+          </details>
+          <a href="https://north-empire.com/pages/school-tours/2-days-constructor.php"
+            class="tour-list__button tour-list__button_autumn">Программа тура</a>
+        </div>
+        <div class="tour-list__icons">
+          <div class="icon">
+            <img src="images/icons/bus.png" alt="Пиктограмма транспорт в туре" class="icon__img">
+            <p class="icon__caption">все дни тура</p>
+          </div>
+          <div class="icon">
+            <img src="images/icons/meel.png" alt="Пиктограмма питание в туре" class="icon__img">
+            <p class="icon__caption">1 завтрак, 2 обеда</p>
+          </div>
+          <?php include("blocks/icons/comfort.php"); ?>
+        </div>
+      </div>
+
+      <div class="tour-list__card tour-list__card_autumn">
+        <div class="tour-list__icons">
+          <?php include("blocks/icons/autumn.php"); ?>
+          <?php include("blocks/icons/group.php"); ?>
+          <?php include("blocks/icons/school.php"); ?>
+        </div>
+        <img src="images/photo/vert_autumn_City.jpg" alt="Москва-Сити" class="tour-list__photo">
+        <div class="tour-list__description">
+          <h2 class="tour-list__title"><a href="https://north-empire.com/pages/school-tours/3-days-constructor.php"
+              class="tour-list__link tour-list__link_autumn">Осенние краски Москвы</a></h2>
+          <p class="tour-list__seo-text">Экскурсионный тур в Москву для групп школьников на осенние каникулы</p>
+          <p class="tour-list__date">3 дня</p>
+          <details class="tour-list__details">
+            <summary class="tour-list__summary summary">5 музеев:</summary>
+            <ul class="tour-list__museums">
+              <li class="tour-list__museum">Бородинская панорама</li>
+              <li class="tour-list__museum">музей изобразительных искусств им. Пушкина</li>
+              <li class="tour-list__museum">Мосфильм</li>
+              <li class="tour-list__museum">Исторический&nbsp;музей</li>
+              <li class="tour-list__museum">Дворец в усадьбе Коломенское</li>
+            </ul>
+          </details>
+          <a href="https://north-empire.com/pages/school-tours/3-days-constructor.php"
+            class="tour-list__button tour-list__button_autumn">Программа тура</a>
+        </div>
+        <div class="tour-list__icons">
+          <div class="icon">
+            <img src="images/icons/bus.png" alt="Пиктограмма транспорт в туре" class="icon__img">
+            <p class="icon__caption">1 и 3 день</p>
+          </div>
+          <div class="icon">
+            <img src="images/icons/meel.png" alt="Пиктограмма питание в туре" class="icon__img">
+            <p class="icon__caption">2&nbsp;завтрака, 3&nbsp;обеда</p>
+          </div>
+          <?php include("blocks/icons/comfort.php"); ?>
+        </div>
+      </div>
+
+      
+      <div class="tour-list__card tour-list__card_autumn">
+        <div class="tour-list__icons">
+          <?php include("blocks/icons/autumn.php"); ?>
+          <?php include("blocks/icons/group.php"); ?>
+          <?php include("blocks/icons/school.php"); ?>
+        </div>
+        <img src="images/photo/vert_autumn_Zaryadie_night.jpg" alt="Зарядье" class="tour-list__photo">
+        <div class="tour-list__description">
+          <h2 class="tour-list__title"><a href="https://north-empire.com/pages/school-tours/4-days-constructor.php"
+              class="tour-list__link tour-list__link_autumn">Осенние краски Москвы</a></h2>
+          <p class="tour-list__seo-text">Экскурсионный тур в Москву для групп школьников на осенние каникулы</p>
+          <p class="tour-list__date">4 дня</p>
+          <details class="tour-list__details">
+            <summary class="tour-list__summary summary">7 музеев:</summary>
+            <ul class="tour-list__museums">
+              <li class="tour-list__museum">Бородинская панорама</li>
+              <li class="tour-list__museum">музей изобразительных искусств им. Пушкина</li>
+              <li class="tour-list__museum">Мосфильм</li>
+              <li class="tour-list__museum">Исторический&nbsp;музей</li>
+              <li class="tour-list__museum">Дворец в усадьбе Коломенское</li>
+              <li class="tour-list__museum">Зоологический&nbsp;музей</li>
+              <li class="tour-list__museum">музей Есенина</li>
+            </ul>
+          </details>
+          <a href="https://north-empire.com/pages/school-tours/4-days-constructor.php"
+            class="tour-list__button tour-list__button_autumn">Программа тура</a>
+        </div>
+        <div class="tour-list__icons">
+          <div class="icon">
+            <img src="images/icons/bus.png" alt="Пиктограмма транспорт в туре" class="icon__img">
+            <p class="icon__caption">1 и 4 день</p>
+          </div>
+          <div class="icon">
+            <img src="images/icons/meel.png" alt="Пиктограмма питание в туре" class="icon__img">
+            <p class="icon__caption">3&nbsp;завтрака, 4&nbsp;обеда</p>
+          </div>
+          <?php include("blocks/icons/comfort.php"); ?>
+        </div>
+      </div>
+
+      <div class="tour-list__card tour-list__card_autumn">
+        <div class="tour-list__icons">
+          <?php include("blocks/icons/autumn.php"); ?>
+          <?php include("blocks/icons/group.php"); ?>
+          <?php include("blocks/icons/school.php"); ?>
+        </div>
+        <img src="images/photo/vert_autumn_City_eve.jpg" alt="Москва-Сити" class="tour-list__photo">
+        <div class="tour-list__description">
+          <h2 class="tour-list__title"><a href="https://north-empire.com/pages/school-tours/5-days-constructor.php"
+              class="tour-list__link tour-list__link_autumn">Осенние краски Москвы</a></h2>
+          <p class="tour-list__seo-text">Экскурсионный тур в Москву для групп школьников на осенние каникулы</p>
+          <p class="tour-list__date">5 дней</p>
+          <details class="tour-list__details">
+            <summary class="tour-list__summary summary">8 музеев:</summary>
+            <ul class="tour-list__museums">
+              <li class="tour-list__museum">Бородинская панорама</li>
+              <li class="tour-list__museum">музей изобразительных искусств им. Пушкина</li>
+              <li class="tour-list__museum">Мосфильм</li>
+              <li class="tour-list__museum">Исторический&nbsp;музей</li>
+              <li class="tour-list__museum">Дворец в усадьбе Коломенское</li>
+              <li class="tour-list__museum">Зоологический&nbsp;музей</li>
+              <li class="tour-list__museum">музей Есенина</li>
+              <li class="tour-list__museum">Планетарий</li>
+            </ul>
+          </details>
+          <a href="https://north-empire.com/pages/school-tours/5-days-constructor.php"
+            class="tour-list__button tour-list__button_autumn">Программа тура</a>
+        </div>
+        <div class="tour-list__icons">
+          <div class="icon">
+            <img src="images/icons/bus.png" alt="Пиктограмма транспорт в туре" class="icon__img">
+            <p class="icon__caption">1 и 5 день</p>
+          </div>
+          <div class="icon">
+            <img src="images/icons/meel.png" alt="Пиктограмма питание в туре" class="icon__img">
+            <p class="icon__caption">4&nbsp;завтрака, 5&nbsp;обедов</p>
+          </div>
+          <?php include("blocks/icons/comfort.php"); ?>
         </div>
       </div>
 

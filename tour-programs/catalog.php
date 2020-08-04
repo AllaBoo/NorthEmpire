@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html class="html" lang="ru">
+<html lang="ru">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -189,7 +189,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Осенние краски Москвы»</p>
+        <a href="https://north-empire.com/pages/school-tours/2-days-constructor.php" class="catalog__link">«Осенние краски Москвы»</a>
         <p class="catalog__text">Кремль, музей изобразительных искусств им.&nbsp;Пушкина, Мосфильм.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -211,7 +211,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Осенние краски Москвы»</p>
+      <a href="https://north-empire.com/pages/school-tours/3-days-constructor.php" class="catalog__link">«Осенние краски Москвы»</a>
         <p class="catalog__text">Кремль, музей изобразительных искусств им.&nbsp;Пушкина, Мосфильм, Исторический&nbsp;музей, Дворец в усадьбе Коломенское.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -233,7 +233,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Осенние краски Москвы»</p>
+      <a href="https://north-empire.com/pages/school-tours/4-days-constructor.php" class="catalog__link">«Осенние краски Москвы»</a>
         <p class="catalog__text">Кремль, музей изобразительных искусств им.&nbsp;Пушкина, Мосфильм, Исторический&nbsp;музей, Зоологический&nbsp;музей, Дворец в усадьбе Коломенское,&nbsp;музей Есенина.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -255,7 +255,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Осенние краски Москвы»</p>
+      <a href="https://north-empire.com/pages/school-tours/5-days-constructor.php" class="catalog__link">«Осенние краски Москвы»</a>
         <p class="catalog__text">Кремль, музей изобразительных искусств им.&nbsp;Пушкина, Мосфильм, Исторический&nbsp;музей, Зоологический&nbsp;музей, Дворец в усадьбе Коломенское,&nbsp;музей Есенина, Планетарий.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -552,7 +552,7 @@
 
     <div class="catalog__row">
     <div class="catalog__conteiner-text">
-        <p class="catalog__link">Семейный тур (зима)</p>
+    <a href="https://north-empire.com/pages/individual-tours/family-winter.php" class="catalog__link">Семейный тур (зима)</a>
         <p class="catalog__text">для детей, их родителей, бабушек и дедушек.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -577,7 +577,7 @@
 
     <div class="catalog__row">
     <div class="catalog__conteiner-text">
-        <p class="catalog__link">Семейный тур (осень)</p>
+        <a href="https://north-empire.com/pages/individual-tours/family-autumn.php" class="catalog__link">Семейный тур (осень)</a>
         <p class="catalog__text">для детей, их родителей, бабушек и дедушек.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -587,10 +587,10 @@
         <p class="catalog__days">5 дней</p>
       </div>
       <div class="catalog__download-container">
-        <a href="https://north-empire.com/tour-programs/2021-family-autumn.doc"><img
+        <a href="https://north-empire.com/tour-programs/2020-family-autumn.doc"><img
             src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
             class="catalog__download-icon"></a>
-        <a href="https://north-empire.com/tour-programs/2021-family-autumn.pdf" target="_blank"><img
+        <a href="https://north-empire.com/tour-programs/2020-family-autumn.pdf" target="_blank"><img
             src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
             class="catalog__download-icon"></a>
       </div>

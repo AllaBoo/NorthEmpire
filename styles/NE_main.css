@@ -312,7 +312,7 @@
 
 .contacts__text {
   margin: 2rem 1rem 1rem 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: normal;
   text-align: left;
 }
@@ -320,7 +320,7 @@
 @media (max-width: 500px) {
   .contacts__text  {
     margin: 3rem 1rem 1rem 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -338,13 +338,7 @@
 .contacts__address {
   margin: 0 0 0 1rem;
   text-decoration: none;
-  font-size: 2rem;
-}
-
-@media (max-width: 500px) {
-  .contacts__address {
-    font-size: 1rem;
-  }
+  font-size: 1rem;
 }
 
 .contacts__container {
@@ -389,16 +383,11 @@
 .contacts__link {
   margin-left: 1rem;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #000;
 }
 
-@media (max-width: 500px) {
-  .contacts__link  {
-    font-size: 1.5rem;
-  }
-}
 .contacts__icon {
   height: 40px;
 }

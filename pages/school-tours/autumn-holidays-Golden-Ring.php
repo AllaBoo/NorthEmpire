@@ -24,10 +24,10 @@
     <nav class="heading__nav">
       <ul class="heading__list">
         <li class="heading__list-item">
-          <a href=" #program" target="_blank" class="heading__anchor">&nbsp;Программа тура&nbsp;</a>
+          <a href=" #program" class="heading__anchor">&nbsp;Программа тура&nbsp;</a>
         </li>
         <li class="heading__list-item">
-          <a href=" #price" target="_blank" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
+          <a href=" #price" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
         </li>
         <li class="heading__list-item">
           <a href="https://north-empire.com/tour-programs/2020-autumn-Moscow-GoldenRing-school-tur-5i1.pdf" target="_blank"
@@ -58,50 +58,60 @@
     <?php include("../../blocks/advantages/care.php"); ?>
     </div>
   </section>
+  <a name="program"></a>
   <div class="skew-cc"></div>
   <section class="white-block">
-    <a name="form" class="anchor"></a>
-    <h2 class="title">Краткая информация о туре</h2>
-    <div class="info__container">
-      <div class="info__cards">
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/barcode.png" alt="Пиктограмма название тура">
-          <p class="info__title">Название:</p>
-          <p class="info__description">«Осенние каникулы на Золотом кольце и в Москве»</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/sborny.jpg" alt="Пиктограмма тип тура">
-          <p class="info__title">Тип:</p>
-          <p class="info__description">сборный тур</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/school.jpg" alt="Пиктограмма школьник">
-          <p class="info__title">Туристы:</p>
-          <p class="info__description">школьники</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/calendar_horizontal.png" alt="Пиктограмма календарь тура">
-          <p class="info__title">5 дней:</p>
-          <p class="info__description">26-30 октября 2020 года</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/spoon-fork.png" alt="Пиктограмма питание в туре">
-          <p class="info__title">Питание:</p>
-          <p class="info__description">2-разовое</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/bus.png" alt="Пиктограмма транспорт в туре">
-          <p class="info__title">Автобус:</p>
-          <p class="info__description">на 4 дня + 1 пешеходный день</p>
+  <h2 class="title">Краткая информация о туре</h2>
+  <div class="tour-list__icons">
+    <?php include("../../blocks/icons/sborny_tur.php"); ?>
+    <?php include("../../blocks/icons/autumn.php"); ?>
+    <p class="card__text card__text_center">&laquo;Осенние каникулы на&nbsp;Золотом кольце и&nbsp;в&nbsp;Москве&raquo;</p>
+    <?php include("../../blocks/icons/5i1.php"); ?>
+    <?php include("../../blocks/icons/comfort.php"); ?>
+  </div>
+  <div class="info">
+    <div class="card card_half">
+      <div class="card">
+        <img class="card__image" src="../../images/icons/calendar.jpg" alt="Календарь">
+        <div class="card__description">
+          <h4 class="card__title">Даты:</h4>
+          <p class="card__text">26-30 октября 2020 года</p>
+          <p class="card__text">5 дней</p>
         </div>
       </div>
-
-      <div class="info__museums">
-        <div class="info__card info__card_museums">
-          <img class="info__pic" src="../../images/icons/map.png" alt="Объекты показа">
-          <p class="info__title">Музеи:</p>
-
+      <div class="card">
+        <img class="card__image" src="../../images/icons/spoon-fork.png" alt="Питание">
+        <div class="card__description">
+          <h4 class="card__title">Питание:</h4>
+          <p class="card__text">2-разовое</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="../../images/icons/bus.png" alt="Автобус">
+        <div class="card__description">
+          <h4 class="card__title">Автобус:</h4>
+          <p class="card__text">каждый день</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="../../images/icons/picking.png" alt="Экскурсии">
+        <div class="card__description">
+          <h4 class="card__title">Экскурсии:</h4>
           <ul class="info__museums-list">
+            <li class="info__museum">автобусная обзорная по Москве</li>
+            <li class="info__museum">пешеходная по Красной площади</li>
+            <li class="info__museum">территория усадьбы Коломенское</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card_half">
+    <div class="card">
+      <img class="card__image" src="../../images/icons/map.png" alt="Объекты показа">
+      <div class="card__description">
+        <h4 class="card__title">Музеи:</h4>
+        <ul class="info__museums-list">
             <li class="info__museum">Кремль</li>
             <li class="info__museum">Третьяковская галерея</li>
             <li class="info__museum">усадьба Царицыно (Большой дворец)</li>
@@ -110,15 +120,15 @@
             <li class="info__museum">музей деревянного зодчества в Суздале</li>
             <li class="info__museum">церковь Покрова-на-Нерли</li>
           </ul>
-        </div>
+      </div>
       </div>
     </div>
-  </section>
+
+  </div>
+</section>
 
   <div class="skew-c"></div>
   <main class="colour-block">
-    <a name="program"></a>
-
     <h2 class="title">Программа тура</h2>
     <p class="tour__mark">Выберите день и вам откроется подробная программа экскурсионного тура:</p>
 
@@ -145,8 +155,8 @@
       <?php include("../../blocks/excursions/meet_hotel.php"); ?>
       <?php include("../../blocks/excursions/transfer-to-railway.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/train-fast.png" alt="Пиктограмма поезд-экспресс">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/train-fast.png" alt="Пиктограмма поезд-экспресс">
+        <div class="card__description card__description_big">
           <p class="card__title">Переезд поездом «Ласточка»</p>
           <p class="card__text">до города Владимир.</p>
         </div>
@@ -174,8 +184,8 @@
       <?php include("../../blocks/excursions/Suzdal-cloister.php"); ?>
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/bus.png" alt="Пиктограмма автобус">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/bus.png" alt="Пиктограмма автобус">
+        <div class="card__description card__description_big">
           <p class="card__title">Трансфер на вокзал во Владимир.</p>
           <p class="card__text">Путевая информация.</p>
         </div>
@@ -183,8 +193,8 @@
           <span class="card__span">45 минут.</span></p>
       </div>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/train-fast.png" alt="Пиктограмма поезд-экспресс ">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/train-fast.png" alt="Пиктограмма поезд-экспресс ">
+        <div class="card__description card__description_big">
           <p class="card__title">Переезд поездом «Ласточка»</p>
           <p class="card__text">в Москву.</p>
         </div>
@@ -192,8 +202,8 @@
           <span class="card__span">~ 2 часа.</span></p>
       </div>
       <div class="day__container">
-        <img class="card__image" src="../../images/icons/bus.png" alt="Пиктограмма автобус">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/bus.png" alt="Пиктограмма автобус">
+        <div class="card__description card__description_big">
           <p class="card__title">Трансфер от вокзала до гостиницы в Москве.</p>
           <p class="card__text">Путевая информация. Размещение.</p>
         </div>
