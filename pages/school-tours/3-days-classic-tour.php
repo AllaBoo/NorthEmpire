@@ -47,7 +47,7 @@
   <div class="tour-list__icons">
   <?php include("../../blocks/icons/group.php"); ?>
     <?php include("../../blocks/icons/school.php"); ?>
-    <p class="card__text card__text_center">Классический тур &laquo;Осенние краски Москвы&raquo;</p>
+    <p class="card__text card__text_center">Классический тур &laquo;Ах,&nbsp;эти улицы Москвы&raquo;</p>
     <?php include("../../blocks/icons/comfort.php"); ?>
     <?php include("../../blocks/icons/autumn.php"); ?>
   </div>
@@ -142,7 +142,7 @@
 
     <details class="day">
       <summary class="day__summary summary">3 день
-        <h3 class="day__sightseeing">Мосфильм, музей изобразительных искусств имени&nbsp;Пушкина</h3>
+        <h3 class="day__sightseeing">Коломенское</h3>
       </summary>
       <?php include("../../blocks/excursions/breakfast_hotel.php"); ?>
       <?php include("../../blocks/excursions/meet_hotel.php"); ?>
@@ -167,65 +167,36 @@
     <p class="price__subtitle">На 1 человека в российских рублях</p>
     <table id="table-mobile">
     <caption>
-      <?php include("../../blocks/hotels/vals.php"); ?>
+      <?php include("../../blocks/hotels/2stars.php"); ?>
     </caption> 
     <thead><tr><th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th></tr></thead>
       <tbody>
         <tr>
-        <td>10000</td><td>10820</td><td>11820</td><td>2370</td><td>15280</td>
+        <td>9850</td><td>11000</td><td>11550</td><td>12400</td>
         </tr>
       </tbody>
     </table>
 
     <table id="table-mobile">
     <caption>
-    <?php include("../../blocks/hotels/maxima.php"); ?>
+    <?php include("../../blocks/hotels/3stars-standart.php"); ?>
     </caption> 
     <thead><tr><th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th></tr></thead>
       <tbody>
         <tr>
-        <td>10460</td><td>11120</td><td>12110</td><td>12650</td><td>15500</td>
+        <td>10200</td><td>11300</td><td>12000</td><td>12650</td>
         </tr>
       </tbody>
     </table>
 
     <table id="table-mobile">
     <caption>
-    <?php include("../../blocks/hotels/aeropolis.php"); ?>
+    <?php include("../../blocks/hotels/3stars-komfort.php"); ?>
     </caption> 
     <thead><tr><th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th></tr></thead>
       <tbody>
         <tr>
-        <td>10460</td><td>11120</td><td>12110</td><td>12650</td><td>15500</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <table id="table-mobile">
-    <caption>
-    <?php include("../../blocks/hotels/fili.php"); ?>
-    </caption> 
-      <thead><tr><th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th></tr></thead>
-      <tbody>
-        <tr>
-        <td>10770</td><td>11570</td><td>12580</td><td>13090</td><td>15950</td>
-        </tr>
-      </tbody>
-    </table>
-
-    
-    <table id="table-mobile">
-    <caption>
-    <?php include("../../blocks/hotels/kosmos.php"); ?>
-    </caption> 
-      <thead>
-        <tr>
-        <th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-        <td>11200</td><td>11890</td><td>12860</td><td>13350</td><td>16390</td>
+        <td>10800</td><td>11900</td><td>12600</td><td>13400</td>
         </tr>
       </tbody>
     </table>
@@ -238,29 +209,21 @@
       </thead>
       <tbody>
         <tr>
-        <td><?php include("../../blocks/hotels/vals.php"); ?></td>
-        <td>10000</td><td>10820</td><td>11820</td><td>2370</td><td>15280</td>
+        <td><?php include("../../blocks/hotels/2stars.php"); ?></td>
+        <td>9850</td><td>11000</td><td>11550</td><td>12400</td>
         </tr>
         <tr>
-        <td><?php include("../../blocks/hotels/maxima.php"); ?></td>
-        <td>10460</td><td>11120</td><td>12110</td><td>12650</td><td>15500</td>
+        <td><?php include("../../blocks/hotels/3stars-standart.php"); ?></td>
+        <td>10200</td><td>11300</td><td>12000</td><td>12650</td>
         </tr>
         <tr>
-        <td><?php include("../../blocks/hotels/aeropolis.php"); ?></td>
-        <td>10460</td><td>11120</td><td>12110</td><td>12650</td><td>15500</td>
-        </tr>
-        <tr>
-        <td><?php include("../../blocks/hotels/fili.php"); ?></td>
-          <td>10770</td><td>11570</td><td>12580</td><td>13090</td><td>15950</td>
-        </tr>
-        <tr>
-          <td><?php include("../../blocks/hotels/kosmos.php"); ?></td>
-          <td>11200</td><td>11890</td><td>12860</td><td>13350</td><td>16390</td>
+        <td><?php include("../../blocks/hotels/3stars-komfort.php"); ?></td>
+        <td>10800</td><td>11900</td><td>12600</td><td>13400</td>
         </tr>
       </tbody>
     </table>
 
-    <p class="price__service">Доплата за взрослых (родителей) в группе &ndash; 2200&nbsp;рублей с 1 человека</p>
+    <p class="price__service">Доплата за взрослых (родителей) в группе &ndash; 1350&nbsp;рублей с 1 человека</p>
     <p class="price__service">Доплата за школьников старше 16 лет &ndash;	350&nbsp;рублей с 1 человека</p>
     <p class="price__service">Стоимость действительна с 1&nbsp;июля&nbsp;2020 до 1&nbsp;февраля 2021&nbsp;года с&nbsp;пятницы по&nbsp;понедельник или в праздничные дни</p>
     <details class="price__spoiler">
@@ -277,10 +240,10 @@
             <li class="price__excursion">обзорная экскурсия по Москве</li>
             <li class="price__excursion">пешеходная экскурсия по Красной площади и Александровскому саду;</li>
             <li class="price__excursion">экскурсия по территории Московского Кремля с посещением одного собора;</li>
-            <li class="price__excursion">экскурсия в Исторический музей
- <li class="price__excursion">экскурсия в Дворец в усадьбе Коломенское;</li>
- <li class="price__excursion">экскурсия в музей изобразительных искусств им. Пушкина;</li>
- <li class="price__excursion">экскурсия на Мосфильм;</li>
+            <li class="price__excursion">экскурсия в Третьяковскую галерею</li>
+            <li class="price__excursion">пешеходная экскурсия по Замоскворечью;</li>
+            <li class="price__excursion">пешеходная экскурсия по территории усадьбы Коломенское;</li>
+            <li class="price__excursion">пешеходная экскурсия по Арбату;</li>
 </li>
           </ul>
         </li>
