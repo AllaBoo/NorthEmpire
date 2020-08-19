@@ -301,6 +301,7 @@
   text-align: center;
   font-size: 1rem;
   display: none;
+  z-index: 1;
 }
 
 .contacts__text {
@@ -501,10 +502,10 @@
 
 .heading__list-item {
   margin: 1rem;
-  min-width: 21rem;
+  min-width: 1.75rem;
   width: fit-content;
-  min-height: 2.5rem;
-  font-size: 2rem;
+  min-height: 2rem;
+  font-size: 1.5rem;
   border: 2px solid #fafafa;
   border-radius: 2rem;
   box-sizing: border-box;
@@ -516,13 +517,13 @@
 
 @media (max-width: 500px) {
   .heading__list-item {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 320px) {
   .heading__list-item {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -603,6 +604,30 @@
   }
 }
 
+/* Убираем стандартный маркер Chrome */
+details summary::-webkit-details-marker {
+  display: none
+}
+/* Убираем стандартный маркер Firefox */
+details > summary {
+  list-style: none;
+}
+
+/* Добавляем собственный маркер для закрытого состояния */
+details summary:before {
+  content: '+';
+  font-weight: bold;
+  margin-right: .5rem;
+}
+
+/* Добавляем собственный маркер для открытого состояния */
+details[open] summary:before {
+  content: '-';
+  font-weight: bold;
+  margin-right: .5rem;
+}
+
+
 .summary {
   font-size: 1.5rem;
   border: solid 1px #000000;
@@ -615,6 +640,13 @@
   .summary {
     font-size: 1rem;
   }
+}
+
+.fit__summary {
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+  font-size: 1.25rem;
 }
 
 .day__summary {
@@ -684,6 +716,7 @@
   text-align: center;
   font-size: 3rem;
   margin: 0;
+  z-index: 1;
 }
 
 
@@ -772,6 +805,7 @@
   font-weight: bold;
   margin: .5rem;
   align-self: flex-start;
+  z-index: 1;
 }
 
 @media (max-width: 900px) {
@@ -784,16 +818,32 @@
   font-style: italic;
 }
 
+.fit__text {
+  font-size: 1rem;
+  margin: 0 .5rem;
+  text-align: justify;
+}
+
+.fit__subtitle {
+  font-size: 1rem;
+  margin: .5rem auto 0;
+  text-align: center;
+}
+
+.extra-pay {
+  font-style: italic;
+}
+
 .card__text {
   font-size: 1.5rem;
   margin: .5rem;
   text-align: justify;
 }
 
-
 @media (max-width: 600px) {
   .card__text  {
     font-size: 1rem;
+    margin: 0 .5rem;
   } 
 }
 
@@ -860,6 +910,7 @@
   opacity: .5;
   text-align: center;
   margin: 0;
+  font-weight: normal;
 }
 
 .day {
@@ -890,17 +941,20 @@
 
 .spacing {
   letter-spacing: -1px;
+  margin: 0;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 600px) {
   .spacing   {
     letter-spacing: normal;
+    font-size: .75rem;
   }
 }
 
 .price__subtitle {
   text-align: center;
-  margin: 0 0 1rem 0;
+  margin: 0;
 }
 
 
@@ -1050,6 +1104,7 @@ tr:hover { background-color: #d9d7d7;}
   text-align: center;
   font-size: 2rem;
   margin: 1rem 0 0 0;
+  z-index: 1;
 }
 
 .price__includes {
@@ -1294,6 +1349,7 @@ tr:hover { background-color: #d9d7d7;}
 .tour-list__title {
   margin: 0 0 .5rem 0;
   text-align: center;
+  z-index: 1;
 }
 
 .tour-list__link {
@@ -1313,6 +1369,13 @@ tr:hover { background-color: #d9d7d7;}
   margin: 0 0 .5rem 0;
   line-height: .9;
   text-align: center;
+}
+
+
+@media (max-width: 500px) {
+  .tour-list__seo-text {
+    display: none;
+  }
 }
 
 .tour-list__date {
@@ -1338,8 +1401,90 @@ tr:hover { background-color: #d9d7d7;}
   color: #000000;
 }
 
+.fit__details {
+  box-sizing: border-box;
+  padding: 5px;
+  border: .5px solid #000000;
+}
+
+.fit__container{
+  display: flex;
+  width: 100%;
+}
+
+.persons {
+  background-color: rgb(22, 49, 118);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.fit__heading {
+  width: 10%;
+}
+
+.fit__heading2 {
+  display: none;
+}
+
+.fit__heading4 {
+  display: none;
+}
+
+.fit__price {
+  width: 5.625%;
+}
+
+.fit__cell {
+  border: .5px solid grey;
+  text-align: center;
+  margin: 0;
+  font-size: 1.5rem;
+}
+@media (max-width: 1200px) {
+  .fit__cell {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .fit__container{
+    flex-wrap: wrap;
+  }
+  .fit__heading {
+    width: 20%;
+  }
+  .fit__heading2 {
+    display: block;
+  }
+  .fit__price {
+    width: 10%;
+  }
+}
+
+@media (max-width: 750px) {
+  .fit__price {
+    width: 20%;
+  }
+  .fit__heading {
+    width: 20%;
+  }
+  .fit__heading4 {
+    display: block;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .fit__price {
+    width: 17.5%;
+  }
+  .fit__heading {
+    width: 30%;
+  }
+}
+
 .icon_bordered {
-  border-left: #000000 1px solid;
+  border-left: #201717 1px solid;
   margin: 1px;
   box-sizing: border-box;
   padding: 5px;

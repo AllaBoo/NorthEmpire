@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../styles/normalize.css">
   <link rel="stylesheet" href="../../styles/NE_style.css">
-  <title>Ах, эти улицы Москвы 3 дня | Экскурсионный тур для групп от 10 человек</title>
+  <title>На московских просторах 3 дня | Экскурсионный тур для групп от 15 человек</title>
   <meta name="description"
-    content="Сборный экскурсионный тур в Москву для групп школьников от 10 человек. Экскурсионная программа тура построена с учётом особенностей школьников." />
+    content="Сборный экскурсионный тур в Москву для групп школьников от 15 человек. Экскурсионная программа тура построена с учётом особенностей школьников." />
   <meta name="Keywords" content="экскурсионный тур в Москву для школьников, тур в Москву на 3 дня" />
 </head>
 
@@ -18,7 +18,7 @@
  <?php include("../../blocks/parts-of-pages/contacts.php"); ?>
 
  <section class="colour-block">
-    <h1 class="heading__name">Классический тур «Ах, эти улицы Москвы»</h1>
+    <h1 class="heading__name">Классический тур «На&nbsp;московских просторах»</h1>
     <p class="heading__type">Экскурсионный тур для организованных групп школьников от 10 человек</p>
     <p class="heading__date">3 дня / 2 ночи</p>
     <nav class="heading__nav">
@@ -30,11 +30,11 @@
           <a href=" #price" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
         </li>
         <li class="heading__list-item">
-          <a href="https://north-empire.com/tour-programs/2020-school-groups-classic-tour-3-days.pdf" target="_blank"
+          <a href="https://north-empire.com/tour-programs/2020-school-groups-classic-tour-3-days-must-see.pdf" target="_blank"
             class="heading__anchor">Скачать тур в PDF</a>
         </li>
         <li class="heading__list-item">
-          <a href="https://north-empire.com/tour-programs/2020-school-groups-classic-tour-3-days.doc"
+          <a href="https://north-empire.com/tour-programs/2020-school-groups-classic-tour-3-days-must-see.doc"
             class="heading__anchor">Скачать тур в DOC</a>
         </li>
       </ul>
@@ -47,7 +47,7 @@
   <div class="tour-list__icons">
   <?php include("../../blocks/icons/group.php"); ?>
     <?php include("../../blocks/icons/school.php"); ?>
-    <p class="card__text card__text_center">Классический тур &laquo;Ах,&nbsp;эти улицы Москвы&raquo;</p>
+    <p class="card__text card__text_center">Классический тур &laquo;На&nbsp;московских просторах&raquo;</p>
     <?php include("../../blocks/icons/comfort.php"); ?>
     <?php include("../../blocks/icons/autumn.php"); ?>
   </div>
@@ -86,7 +86,9 @@
         <h4 class="card__title">Музеи:</h4>
         <ul class="info__museums-list">
           <li class="info__museum">Кремль</li>
-          <li class="info__museum">Третьяковская галерея</li>
+          <li class="info__museum">музей космонавтики</li>
+          <li class="info__museum">Мосфильм</li>
+          <li class="info__museum">Москва-Сити Панорама 360</li>
         </ul>
       </div>
       </div>
@@ -98,9 +100,7 @@
           <ul class="info__museums-list">
             <li class="info__museum">автобусная обзорная по Москве</li>
             <li class="info__museum">пешеходная по Красной площади</li>
-            <li class="info__museum">пешеходная по Арбату</li>
-            <li class="info__museum">пешеходная по Замоскворечью</li>
-            <li class="info__museum">пешеходная по территории усадьбы Коломенское</li>
+            <li class="info__museum">пешеходная по ВДНХ</li>
           </ul>
         </div>
       </div>
@@ -129,29 +129,29 @@
 
     <details class="day">
       <summary class="day__summary summary">2 день
-        <h3 class="day__sightseeing">Третьяковская галерея</h3>
+        <h3 class="day__sightseeing">ВДНХ, музей космонавтики</h3>
       </summary>
       <?php include("../../blocks/excursions/breakfast_hotel.php"); ?>
       <?php include("../../blocks/excursions/meet_hotel.php"); ?>
       <?php include("../../blocks/excursions/metro-included.php"); ?>
-      <?php include("../../blocks/excursions/Zamoskvoreche.php"); ?>
-      <?php include("../../blocks/excursions/Tretyakovka.php"); ?>
+      <?php include("../../blocks/excursions/VDNH_architecture.php"); ?>
+      <?php include("../../blocks/excursions/VDNH_space.php"); ?>
       <?php include("../../blocks/excursions/dinner_cafe.php"); ?>
-      <?php include("../../blocks/excursions/finish_center.php"); ?>
+      <?php include("../../blocks/excursions/finish_VDNH.php"); ?>
+      <?php include("../../blocks/excursions/Moskvarium-extra-pay.php"); ?>
     </details>
 
     <details class="day">
       <summary class="day__summary summary">3 день
-        <h3 class="day__sightseeing">Коломенское</h3>
+        <h3 class="day__sightseeing">Мосфильм, Москва-Сити Панорама 360</h3>
       </summary>
       <?php include("../../blocks/excursions/breakfast_hotel.php"); ?>
       <?php include("../../blocks/excursions/meet_hotel.php"); ?>
       <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
-      <?php include("../../blocks/excursions/Kolomenskoe.php"); ?>
-      <?php include("../../blocks/excursions/DCAM_extra.php"); ?>
-      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
+      <?php include("../../blocks/excursions/Mosfilm.php"); ?>
       <?php include("../../blocks/excursions/dinner_cafe.php"); ?>
-      <?php include("../../blocks/excursions/Arbat.php"); ?>
+      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
+      <?php include("../../blocks/excursions/Panorama360.php"); ?>
       <?php include("../../blocks/excursions/transfer-to-railway.php"); ?>
     </details>
 
@@ -172,7 +172,7 @@
     <thead><tr><th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th></tr></thead>
       <tbody>
         <tr>
-        <td>9850</td><td>11000</td><td>11550</td><td>12400</td>
+        <td>10990</td><td>11990</td><td>12700</td><td>13450</td>
         </tr>
       </tbody>
     </table>
@@ -184,7 +184,7 @@
     <thead><tr><th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th></tr></thead>
       <tbody>
         <tr>
-        <td>10200</td><td>11300</td><td>12000</td><td>12650</td>
+        <td>11350</td><td>12400</td><td>13100</td><td>13700</td>
         </tr>
       </tbody>
     </table>
@@ -196,7 +196,7 @@
     <thead><tr><th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> </tr></thead>
       <tbody>
         <tr>
-        <td>10800</td><td>11900</td><td>12600</td><td>13400</td>
+        <td>11990</td><td>12990</td><td>13700</td><td>14300</td>
         </tr>
       </tbody>
     </table>
@@ -210,15 +210,15 @@
       <tbody>
         <tr>
         <td><?php include("../../blocks/hotels/2stars.php"); ?></td>
-        <td>9850</td><td>11000</td><td>11550</td><td>12400</td>
+        <td>10990</td><td>11990</td><td>12700</td><td>13450</td>
         </tr>
         <tr>
         <td><?php include("../../blocks/hotels/3stars-standart.php"); ?></td>
-        <td>10200</td><td>11300</td><td>12000</td><td>12650</td>
+        <td>11350</td><td>12400</td><td>13100</td><td>13700</td>
         </tr>
         <tr>
         <td><?php include("../../blocks/hotels/3stars-komfort.php"); ?></td>
-        <td>10800</td><td>11900</td><td>12600</td><td>13400</td>
+        <td>11990</td><td>12990</td><td>13700</td><td>14300</td>
         </tr>
       </tbody>
     </table>
@@ -240,11 +240,10 @@
             <li class="price__excursion">обзорная экскурсия по Москве</li>
             <li class="price__excursion">пешеходная экскурсия по Красной площади и Александровскому саду;</li>
             <li class="price__excursion">экскурсия по территории Московского Кремля с посещением одного собора;</li>
-            <li class="price__excursion">экскурсия в Третьяковскую галерею</li>
-            <li class="price__excursion">пешеходная экскурсия по Замоскворечью;</li>
-            <li class="price__excursion">пешеходная экскурсия по территории усадьбы Коломенское;</li>
-            <li class="price__excursion">пешеходная экскурсия по Арбату;</li>
-</li>
+            <li class="price__excursion">пешеходная экскурсия по ВДНХ;</li>
+            <li class="price__excursion">экскурсия в музей космонавтики;</li>
+            <li class="price__excursion">экскурсия на Мосфильм</li>
+            <li class="price__excursion">экскурсия на смотровую площадку Панорама 360 в Москва-Сити;</li>
           </ul>
         </li>
       </ul>
