@@ -41,7 +41,12 @@
     </nav>
   </section>
 
+  <div class="skew-cc"></div>
+  <section class="white-block">
+  <h2 class="title">Что такое сборный тур 5+1? Кому он Подходит?</h2>
   <?php include("../../blocks/parts-of-pages/5i1-description.php"); ?>
+  </section>
+  <div class="skew-c"></div>
 
   <section class="colour-block">
     <h2 class="title">Преимущества сборного тура</h2>
@@ -252,10 +257,10 @@
     <p class="price__subtitle">На 1 человека в российских рублях</p>
     <p class="price__subtitle">(действительна только для групп школьников от 5+1)</p>
 
-    <table id="table-desktop_only">
-      <thead>
+    <table class="table-desktop_only">
+      <thead class="persons">
         <tr>
-          <th><p class="table__text">Размещение в Москве на выбор + 
+          <th><p class="table__text">Размещение в Москве на выбор +
           <span class="table__span">«Золотое Кольцо» 3* г. Владимир, номера с удобствами, завтрак шведский стол</span></p>
         </th>
           <th>
@@ -347,7 +352,11 @@
       </ul>
     </details>
   </section>
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
+  <div class="skew-c"></div>
+  <section class="colour-block">
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
+  </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

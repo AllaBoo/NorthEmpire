@@ -106,7 +106,7 @@
 
   </div>
 </section>
-  
+
   <div class="skew-c"></div>
   <main class="colour-block">
     <h2 class="title">Программа тура</h2>
@@ -172,7 +172,7 @@
     <table id="table-mobile">
     <caption>
       <?php include("../../blocks/hotels/ibis_pav.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>5</th> <th>8</th> <th>10</th> <th>12</th><th>15</th></tr></thead>
       <tbody>
         <tr>
@@ -184,7 +184,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/HI_Rij.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>5</th> <th>8</th> <th>10</th> <th>12</th><th>15</th></tr></thead>
       <tbody>
         <tr>
@@ -196,7 +196,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/HI_Bel.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>5</th> <th>8</th> <th>10</th> <th>12</th><th>15</th></tr></thead>
       <tbody>
         <tr>
@@ -272,8 +272,9 @@
   </section>
   <div class="skew-c"></div>
   <section class="colour-block">
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
   </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

@@ -45,9 +45,12 @@
       </ul>
     </nav>
   </section>
-
+  <div class="skew-cc"></div>
+  <section class="white-block">
+  <h2 class="title">Что такое сборный тур 5+1? Кому он Подходит?</h2>
   <?php include("../../blocks/parts-of-pages/5i1-description.php"); ?>
-
+  </section>
+  <div class="skew-c"></div>
   <section class="colour-block">
     <h2 class="title">Преимущества сборного тура</h2>
     <div class="cards">
@@ -229,7 +232,7 @@
     <p class="table__text"><span class="table__span">«ВАЛС» 2*</span> блоки 2+2, 2+1, 2+3</p>
     <p class="table__text"><span class="table__span">метро «Павелецкая»</span> 7 минут пешком</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -268,7 +271,7 @@
           <p class="table__text"><span class="table__span">«Аэрополис» 3*</span> номера с удобствами</p>
           <p class="table__text"><span class="table__span">метро «Аэропорт»</span> 15 минут пешком</p>
           <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -304,7 +307,7 @@
     <p class="table__text"><span class="table__span">«Парк отель «Фили» 3*</span> номера с удобствами</p>
             <p class="table__text"><span class="table__span">метро «Багратионовская»</span> 15 минут пешком</p>
             <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -340,7 +343,7 @@
             <p class="table__text"><span class="table__span">«Космос» 3*</span> номера с удобствами</p>
             <p class="table__text"><span class="table__span">метро «ВДНХ»</span> 0 минут пешком</p>
             <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -374,7 +377,7 @@
     <table id="table-mobile">
     <caption>
     <p class="table__text">Доплата за взрослых за весь тур, нетто</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -546,9 +549,11 @@
       </ul>
     </details>
   </section>
-
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
-
+  <div class="skew-c"></div>
+  <section class="colour-block">
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
+  </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

@@ -1,6 +1,3 @@
-<div class="skew-cc"></div>
-  <section class="white-block">
-    <h2 class="title">Что такое сборный тур 5+1 и кому он подходит?</h2>
     <div class="advantages__graphics">
       <img class="advantages__small-pic" src="../../images/info_graphics/hight_prices.jpg" alt="Пиктограмма меньше группа - выше цена">
       <div class="advantages__description">
@@ -20,5 +17,7 @@
       одном
       автобусе несколько мини-групп из разных городов. Это позволяет предложить маленькой группе из 6 человек
       стоимость тура в Москву как при большой группе 40 человек.</p>
-  </section>
-  <div class="skew-c"></div>
+      <h3>Кому подходит сборный тур 5+1?</h3>
+    <p class="advantages__paragrath">Турагентам, учителям, членам родительского комитета, школьникам 1-11 класс.</p>
+    <h3>Кому НЕ подходит сборный тур 5+1?</h3>
+    <p class="advantages__paragrath">Дошкольникам, людям с ограниченными возможностями здоровья.</p>

@@ -19,7 +19,7 @@
         <div class="contacts__way">
           <img src="../../images/icons/small_contact_mob.jpg" alt="Пиктограмма WhatsApp и мобильный телефон"
             class="contacts__icon">
-          <a href="tel:+79639731024" class="contacts__link">+7-963-973-10-24</a>
+          <a href="tel:+79687563976" class="contacts__link">+7-968-756-39-76</a>
         </div>
         <div class="contacts__way">
           <img src="../../images/icons/contact_address.png" alt="Пиктограмма адрес" class="contacts__icon">

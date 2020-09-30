@@ -74,7 +74,7 @@
         </div>
       </div>
 
-      
+
       <div class="tour-list__card tour-list__card_winter">
         <div class="tour-list__icons">
           <?php include("blocks/icons/winter.php"); ?>
@@ -121,6 +121,7 @@
 
     </div>
   </section>
+  <?php include("blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

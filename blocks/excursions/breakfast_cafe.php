@@ -3,6 +3,5 @@
         <div class="card__description card__description_big">
           <p class="card__title">Завтрак</p>
           <p class="card__text">в кафе города (порционный).</p>
-          <p class="card__text card__text_right spacing">Продолжительность: 1&nbsp;час.</p>
         </div>
 </div>

@@ -135,7 +135,7 @@
 
   </div>
 </section>
- 
+
   <div class="skew-c"></div>
   <main class="colour-block">
     <a name="program"></a>
@@ -183,7 +183,7 @@
 
     <details class="day">
       <summary class="day__summary summary">
-      28 октября (среда) 
+      28 октября (среда)
         <h3 class="day__sightseeing">«Мосфильм», Планетарий</h3>
       </summary>
       <?php include("../../blocks/excursions/breakfast_hotel.php"); ?>
@@ -234,7 +234,7 @@
       <?php include("../../blocks/excursions/finish_center.php"); ?>
       <?php include("../../blocks/excursions/transfer_personal_extra.php"); ?>
     </details>
-    
+
     <p class="card__text">Вероятно изменение порядка посещения музеев при сохранении программы.</p>
 
   </main>
@@ -252,7 +252,7 @@
     <caption>
       <p class="table__text">ребёнок до&nbsp;16&nbsp;лет в 2-3-местном номере</p>
       <p class="table__text">Третье место в номере - раскладушка!</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>2&nbsp;дня&nbsp;/&nbsp;&nbsp;<br>1&nbsp;ночь&nbsp;&nbsp;</th>
@@ -271,7 +271,7 @@
     <table id="table-mobile">
     <caption>
       <p class="table__text">взрослый в 2-местном номере</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>2&nbsp;дня&nbsp;/&nbsp;&nbsp;<br>1&nbsp;ночь&nbsp;&nbsp;</th>
@@ -290,7 +290,7 @@
     <table id="table-mobile">
     <caption>
       <p class="table__text">взрослый в 1-местном номере</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>2&nbsp;дня /<br>1&nbsp;ночь</th>
@@ -332,7 +332,7 @@
         </tr>
         <tr>
           <td>взрослый</td><td>12050</td><td>16650</td><td>20250</td><td>24150</td>
-        </tr>        
+        </tr>
       </tbody>
     </table>
     <details class="price__spoiler">
@@ -383,9 +383,11 @@
       </ul>
     </details>
   </section>
-
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
-
+  <div class="skew-c"></div>
+  <section class="colour-block">
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
+  </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

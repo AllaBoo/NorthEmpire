@@ -253,7 +253,7 @@
     <caption>
       <p class="table__text">ребёнок до&nbsp;16&nbsp;лет в 2-3-местном номере</p>
       <p class="table__text">Третье место в номере - раскладушка!</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>2&nbsp;дня&nbsp;/&nbsp;&nbsp;<br>1&nbsp;ночь&nbsp;&nbsp;</th>
@@ -272,7 +272,7 @@
     <table id="table-mobile">
     <caption>
       <p class="table__text">взрослый в 2-местном номере</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>2&nbsp;дня&nbsp;/&nbsp;&nbsp;<br>1&nbsp;ночь&nbsp;&nbsp;</th>
@@ -291,7 +291,7 @@
     <table id="table-mobile">
     <caption>
       <p class="table__text">взрослый в 1-местном номере</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>2&nbsp;дня /<br>1&nbsp;ночь</th>
@@ -333,7 +333,7 @@
         </tr>
         <tr>
           <td>взрослый</td><td>11450</td><td>16300</td><td>21040</td><td>24800</td>
-        </tr>        
+        </tr>
       </tbody>
     </table>
     <details class="price__spoiler">
@@ -386,9 +386,11 @@
       </ul>
     </details>
   </section>
-
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
-
+  <div class="skew-c"></div>
+  <section class="colour-block">
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
+  </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

@@ -108,7 +108,7 @@
 
   </div>
 </section>
-  
+
   <div class="skew-c"></div>
   <main class="colour-block">
     <h2 class="title">Программа тура</h2>
@@ -174,7 +174,7 @@
     <table id="table-mobile">
     <caption>
       <?php include("../../blocks/hotels/2stars.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th><th>10+1</th></tr></thead>
       <tbody>
         <tr>
@@ -186,7 +186,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/3stars.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th><th>10+1</th></tr></thead>
       <tbody>
         <tr>
@@ -198,7 +198,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/4stars.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th><th>10+1</th></tr></thead>
       <tbody>
         <tr>
@@ -235,7 +235,7 @@
     <table id="table-mobile">
     <caption>
       <?php include("../../blocks/hotels/2stars.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+2</th><th>10+1+2</th></tr></thead>
       <tbody>
         <tr>
@@ -247,7 +247,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/3stars.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+2</th><th>10+1+2</th></tr></thead>
       <tbody>
         <tr>
@@ -259,7 +259,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/4stars.php"); ?>
-    </caption> 
+    </caption>
     <thead><tr><th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+2</th><th>10+1+2</th></tr></thead>
       <tbody>
         <tr>
@@ -337,8 +337,9 @@
   </section>
   <div class="skew-c"></div>
   <section class="colour-block">
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
   </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

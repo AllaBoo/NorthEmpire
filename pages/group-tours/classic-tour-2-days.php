@@ -106,7 +106,7 @@
 
   </div>
 </section>
-  
+
   <div class="skew-c"></div>
   <main class="colour-block">
     <h2 class="title">Программа тура</h2>
@@ -161,7 +161,7 @@
     <caption>
     <p class="table__text"><span class="table__span">2*</span> удобства на блок 2+2, 2+1, 2+3</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th> <th>10+1</th>
@@ -178,7 +178,7 @@
     <caption>
     <p class="table__text"><span class="table__span">3*</span> номера с удобствами</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th> <th>10+1</th>
@@ -195,7 +195,7 @@
     <caption>
     <p class="table__text"><span class="table__span">4*</span> номера с удобствами</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th> <th>10+1</th>
@@ -247,7 +247,7 @@
     <caption>
     <p class="table__text"><span class="table__span">2*</span> удобства на блок 2+2, 2+1, 2+3</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+1</th> <th>10+1+1</th>
@@ -255,7 +255,7 @@
       </thead>
       <tbody>
         <tr>
-        <td>7250</td>	<td>8000</td>	<td>8690</td>	<td>9490</td>		<td>11000</td>	
+        <td>7250</td>	<td>8000</td>	<td>8690</td>	<td>9490</td>		<td>11000</td>
         </tr>
       </tbody>
     </table>
@@ -264,7 +264,7 @@
     <caption>
     <p class="table__text"><span class="table__span">3*</span> номера с удобствами</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+1</th> <th>10+1+1</th>
@@ -281,7 +281,7 @@
     <caption>
     <p class="table__text"><span class="table__span">4*</span> номера с удобствами</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+1</th> <th>10+1+1</th>
@@ -373,8 +373,9 @@
   </section>
   <div class="skew-c"></div>
   <section class="colour-block">
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
   </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

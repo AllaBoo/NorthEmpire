@@ -111,7 +111,7 @@
 
   </div>
 </section>
-  
+
   <div class="skew-c"></div>
   <main class="colour-block">
     <h2 class="title">Программа тура</h2>
@@ -203,7 +203,7 @@
     <table id="table-mobile">
     <caption>
       <?php include("../../blocks/hotels/vals.php"); ?>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th>
@@ -219,7 +219,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/maxima.php"); ?>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th>
@@ -235,7 +235,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/aeropolis.php"); ?>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th>
@@ -251,7 +251,7 @@
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/fili.php"); ?>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th>
@@ -264,11 +264,11 @@
       </tbody>
     </table>
 
-    
+
     <table id="table-mobile">
     <caption>
     <?php include("../../blocks/hotels/kosmos.php"); ?>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>40+4</th> <th>30+3</th> <th>20+2</th> <th>15+1</th> <th>10+1</th>
@@ -361,8 +361,9 @@
   </section>
   <div class="skew-c"></div>
   <section class="colour-block">
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
   </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>
