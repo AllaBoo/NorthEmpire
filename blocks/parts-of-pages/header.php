@@ -3,12 +3,10 @@
     <a name="top" class="anchor"></a>
     <nav class="header__nav">
       <ul class="header__list">
-        <!--
         <li class="header__item">
-          <a href="individual-tours.php" 
+          <a href="https://north-empire.com/individual-tours.php" 
             class="header__link header__link_white">Индивидуальным&nbsp;туристам</a>
         </li>
--->
         <li class="header__item">
           <a href="https://north-empire.com/school-tours.php" 
             class="header__link header__link_white">Школьным&nbsp;группам</a>
@@ -36,10 +34,9 @@
       <span></span>
       <span></span>
       <ul class="mobile__list" id="menu">
-        <!--
+
         <li><a class="mobile__link"
-            href="individual-tours.php">Индивидуальным&nbsp;туристам</a></li>
--->
+            href="https://north-empire.com/individual-tours.php">Индивидуальным&nbsp;туристам</a></li>
         <li><a class="mobile__link" href="https://north-empire.com/school-tours.php">Школьным&nbsp;группам</a>
         </li>
         <li><a class="mobile__link" href="https://north-empire.com/group-tours.php">Организованным&nbsp;группам</a>

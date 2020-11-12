@@ -24,10 +24,10 @@
     <nav class="heading__nav">
       <ul class="heading__list">
         <li class="heading__list-item">
-          <a href=" #program" target="_blank" class="heading__anchor">&nbsp;Программа тура&nbsp;</a>
+          <a href=" #program" class="heading__anchor">&nbsp;Программа тура&nbsp;</a>
         </li>
         <li class="heading__list-item">
-          <a href=" #price" target="_blank" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
+          <a href=" #price" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
         </li>
         <li class="heading__list-item">
           <a href="https://north-empire.com/tour-programs/classic-tour-2-days.pdf" target="_blank"
@@ -40,57 +40,75 @@
       </ul>
     </nav>
   </section>
+  <a name="program"></a>
   <div class="skew-cc"></div>
   <section class="white-block">
-    <a name="form" class="anchor"></a>
-    <h2 class="title">Краткая информация о туре</h2>
-    <div class="info__container">
-      <div class="info__cards">
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/barcode.png" alt="Пиктограмма название тура">
-          <p class="info__title">Название:</p>
-          <p class="info__description">Классический тур «Выходные в Москве»</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/sborny.jpg" alt="Пиктограмма тип тура">
-          <p class="info__title">Тип:</p>
-          <p class="info__description">для корпоративных (организованных) групп</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/calendar_horizontal.png" alt="Пиктограмма календарь тура">
-          <p class="info__title">2 дня:</p>
-          <p class="info__description">круглогодичный тур</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/spoon-fork.png" alt="Пиктограмма питание в туре">
-          <p class="info__title">Питание:</p>
-          <p class="info__description">1 завтрак, 2 обеда</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/bus.png" alt="Пиктограмма транспорт в туре">
-          <p class="info__title">Автобус:</p>
-          <p class="info__description">1 день – 8 часов, 2 день – 7 часов</p>
+  <h2 class="title">Краткая информация о туре</h2>
+  <div class="tour-list__icons">
+  <?php include("../../blocks/icons/group.php"); ?>
+    <?php include("../../blocks/icons/adults.php"); ?>
+    <p class="card__text card__text_center">Классический тур &laquo;Выходные в&nbsp;Москве&raquo;</p>
+    <?php include("../../blocks/icons/comfort.php"); ?>
+    <?php include("../../blocks/icons/all_seasons.php"); ?>
+  </div>
+  <div class="info">
+    <div class="card card_half">
+      <div class="card">
+        <img class="card__image" src="../../images/icons/calendar.jpg" alt="Календарь">
+        <div class="card__description">
+          <h4 class="card__title">Даты:</h4>
+          <p class="card__text">на выбор группы</p>
+          <p class="card__text">2 дня</p>
         </div>
       </div>
+      <div class="card">
+        <img class="card__image" src="../../images/icons/meel.png" alt="Питание">
+        <div class="card__description">
+          <h4 class="card__title">Питание:</h4>
+          <p class="card__text">1 завтрак</p>
+          <p class="card__text">2 обеда</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="../../images/icons/bus.png" alt="Автобус">
+        <div class="card__description">
+          <h4 class="card__title">Автобус:</h4>
+          <p class="card__text">1 день – 8 часов</p>
+          <p class="card__text">2 день – 7 часов</p>
+        </div>
+      </div>
+    </div>
 
-      <div class="info__museums">
-        <div class="info__card info__card_museums">
-          <img class="info__pic" src="../../images/icons/map.png" alt="Объекты показа">
-          <p class="info__title">Музеи:</p>
+    <div class="card card_half">
+    <div class="card">
+      <img class="card__image" src="../../images/icons/map.png" alt="Объекты показа">
+      <div class="card__description">
+        <h4 class="card__title">Музеи:</h4>
+        <ul class="info__museums-list">
+          <li class="info__museum">Кремль</li>
+          <li class="info__museum">Художественный музей на выбор: Пушкинский музей, или Третьяковская галерея, или музей русского импрессионизма</li>
+          </ul>
+      </div>
+      </div>
 
+      <div class="card">
+        <img class="card__image" src="../../images/icons/picking.png" alt="Экскурсии">
+        <div class="card__description">
+          <h4 class="card__title">Экскурсии:</h4>
           <ul class="info__museums-list">
-            <li class="info__museum">Кремль</li>
-            <li class="info__museum">Художественный музей на выбор: Пушкинский музей, или Третьяковская галерея, или музей русского импрессионизма</li>
+            <li class="info__museum">автобусная обзорная по Москве</li>
+            <li class="info__museum">пешеходная по Красной площади</li>
+            <li class="info__museum">пешеходная по Арбату</li>
           </ul>
         </div>
       </div>
     </div>
-  </section>
+
+  </div>
+</section>
 
   <div class="skew-c"></div>
   <main class="colour-block">
-    <a name="program"></a>
-
     <h2 class="title">Программа тура</h2>
     <p class="tour__mark">Выберите день и вам откроется подробная программа экскурсионного тура:</p>
 
@@ -139,13 +157,11 @@
     <a name="price"></a>
     <h2 class="price__title">Стоимость тура С&nbsp;АВТОБУСОМ</h2>
     <p class="price__subtitle">На 1 человека в российских рублях</p>
-    <p class="price__subtitle">действительна с 1&nbsp;июля&nbsp;2020 до 1&nbsp;февраля 2021&nbsp;года с&nbsp;пятницы по&nbsp;понедельник или в праздничные дни</p>
-
     <table id="table-mobile">
     <caption>
     <p class="table__text"><span class="table__span">2*</span> удобства на блок 2+2, 2+1, 2+3</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th> <th>10+1</th>
@@ -162,7 +178,7 @@
     <caption>
     <p class="table__text"><span class="table__span">3*</span> номера с удобствами</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th> <th>10+1</th>
@@ -179,7 +195,7 @@
     <caption>
     <p class="table__text"><span class="table__span">4*</span> номера с удобствами</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1</th> <th>30+1</th> <th>20+1</th> <th>15+1</th> <th>10+1</th>
@@ -226,13 +242,12 @@
     <!-- Цены без автобуса -->
     <h2 class="price__title">Стоимость тура БЕЗ&nbsp;АВТОБУСА</h2>
     <p class="price__subtitle">На 1 человека в российских рублях</p>
-    <p class="price__subtitle">действительна с 1&nbsp;июля&nbsp;2020 до 1&nbsp;февраля 2021&nbsp;года с&nbsp;пятницы по&nbsp;понедельник или в праздничные дни</p>
 
     <table id="table-mobile">
     <caption>
     <p class="table__text"><span class="table__span">2*</span> удобства на блок 2+2, 2+1, 2+3</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+1</th> <th>10+1+1</th>
@@ -240,7 +255,7 @@
       </thead>
       <tbody>
         <tr>
-        <td>7250</td>	<td>8000</td>	<td>8690</td>	<td>9490</td>		<td>11000</td>	
+        <td>7250</td>	<td>8000</td>	<td>8690</td>	<td>9490</td>		<td>11000</td>
         </tr>
       </tbody>
     </table>
@@ -249,7 +264,7 @@
     <caption>
     <p class="table__text"><span class="table__span">3*</span> номера с удобствами</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
           <th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+1</th> <th>10+1+1</th>
@@ -266,7 +281,7 @@
     <caption>
     <p class="table__text"><span class="table__span">4*</span> номера с удобствами</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>40+1+2</th> <th>30+1+2</th> <th>20+1+2</th> <th>15+1+1</th> <th>10+1+1</th>
@@ -311,7 +326,7 @@
     </table>
     <p class="price__service">Скидка школьникам с	16 лет &ndash; 350&nbsp;рублей</p>
     <p class="price__service">Скидка школьникам до 16 лет	&ndash;	1200&nbsp;рублей</p>
-
+    <p class="price__service">Стоимость действительна с 1&nbsp;июля&nbsp;2020 до 1&nbsp;февраля 2021&nbsp;года с&nbsp;пятницы по&nbsp;понедельник или в праздничные дни</p>
     <details class="price__spoiler">
       <summary class="price__summary summary">В стоимость входит:</summary>
       <ul class="price__includes">
@@ -358,8 +373,9 @@
   </section>
   <div class="skew-c"></div>
   <section class="colour-block">
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
   </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

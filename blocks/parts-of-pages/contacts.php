@@ -1,4 +1,4 @@
-<div class="skew-cc"></div>
+<div class="skew-cc skew-cc_contacts"></div>
   <section class="contacts">
     <a href="https://north-empire.com"><img src="../../images/logoNE.png"
         alt="Логотип Северной Империи - туроператора по Москве" class="contacts__logo"></a>
@@ -19,7 +19,7 @@
         <div class="contacts__way">
           <img src="../../images/icons/small_contact_mob.jpg" alt="Пиктограмма WhatsApp и мобильный телефон"
             class="contacts__icon">
-          <a href="tel:+79639731024" class="contacts__link">+7-963-973-10-24</a>
+          <a href="tel:+79687563976" class="contacts__link">+7-968-756-39-76</a>
         </div>
         <div class="contacts__way">
           <img src="../../images/icons/contact_address.png" alt="Пиктограмма адрес" class="contacts__icon">
@@ -29,4 +29,4 @@
       </div>
     </div>
   </section>
-  <div class="skew-c"></div>
+  <div class="skew-c skew-c_contacts"></div>

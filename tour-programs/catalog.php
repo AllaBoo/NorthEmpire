@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html class="html" lang="ru">
+<html lang="ru">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -16,9 +16,8 @@
 <?php include("../blocks/parts-of-pages/header.php"); ?>
  <div class="crutch"></div>
  <?php include("../blocks/parts-of-pages/contacts.php"); ?>
-  <div class="skew-c"></div>
   <section class="colour-block">
-    <h1 class="heading__name">Экскурсионные туры в Москву</h1>
+    <h1 class="heading__name">Каталог экскурсионных туров в Москву</h1>
     <p class="heading__type">Раздел предназначен для турагентов.</p>
     <p class="heading__type heading__type_small">Здесь можно посмотреть полный каталог туров для групп школьников и взрослых и скачать все программы. </p>
       <p class="heading__type heading__type_small">Файлы не содержат лишней для туристов информации: названия туроператора и особенностей взаиморасчётов.</p>
@@ -189,7 +188,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Осенние краски Москвы»</p>
+        <a href="https://north-empire.com/pages/school-tours/2-days-constructor.php" class="catalog__link">«Осенние краски Москвы»</a>
         <p class="catalog__text">Кремль, музей изобразительных искусств им.&nbsp;Пушкина, Мосфильм.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -211,7 +210,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Осенние краски Москвы»</p>
+      <a href="https://north-empire.com/pages/school-tours/3-days-constructor.php" class="catalog__link">«Осенние краски Москвы»</a>
         <p class="catalog__text">Кремль, музей изобразительных искусств им.&nbsp;Пушкина, Мосфильм, Исторический&nbsp;музей, Дворец в усадьбе Коломенское.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -233,7 +232,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Осенние краски Москвы»</p>
+      <a href="https://north-empire.com/pages/school-tours/4-days-constructor.php" class="catalog__link">«Осенние краски Москвы»</a>
         <p class="catalog__text">Кремль, музей изобразительных искусств им.&nbsp;Пушкина, Мосфильм, Исторический&nbsp;музей, Зоологический&nbsp;музей, Дворец в усадьбе Коломенское,&nbsp;музей Есенина.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -255,7 +254,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Осенние краски Москвы»</p>
+      <a href="https://north-empire.com/pages/school-tours/5-days-constructor.php" class="catalog__link">«Осенние краски Москвы»</a>
         <p class="catalog__text">Кремль, музей изобразительных искусств им.&nbsp;Пушкина, Мосфильм, Исторический&nbsp;музей, Зоологический&nbsp;музей, Дворец в усадьбе Коломенское,&nbsp;музей Есенина, Планетарий.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -277,7 +276,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">Эконом-тур</p>
+      <a href="https://north-empire.com/pages/school-tours/2-days-economy-tour.php" class="catalog__link">Эконом-тур</a>
         <p class="catalog__text">Исторический музей, архитектурный макет Москвы.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -299,7 +298,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">Эконом-тур</p>
+      <a href="https://north-empire.com/pages/school-tours/3-days-economy-tour.php" class="catalog__link">Эконом-тур</a>
         <p class="catalog__text">Исторический музей, архитектурный макет Москвы, литературный музей А.С.&nbsp;Пушкина на&nbsp;Арбате.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -321,7 +320,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Ах, эти улицы Москвы»</p>
+      <a href="https://north-empire.com/pages/school-tours/3-days-classic-tour.php" class="catalog__link">«Ах, эти улицы Москвы»</a>
         <p class="catalog__text">Кремль, Третьяковская галерея.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -343,7 +342,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«На московских широких просторах»</p>
+      <a href="https://north-empire.com/pages/school-tours/3-days-must-see-tour.php" class="catalog__link">«На московских просторах»</a>
         <p class="catalog__text">Кремль, ВДНХ, музей космонавтики, Мосфильм, Москва-Сити Панорама 360.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -363,20 +362,130 @@
       <?php include("../blocks/catalog/comfort.php"); ?>
     </div>
 
-    <a name="incoming"></a>
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">«Один день в Москве»</p>
-        <p class="catalog__text">7 вариантов транзитных экскурсий</p>
+      <a href="https://north-empire.com/pages/school-tours/1-day-literature.php" class="catalog__link">«Литературные страницы Москвы»</a>
+        <p class="catalog__text">литературный музей А.&nbsp;С.&nbsp;Пушкина на&nbsp;Арбате, тематическая автобусная экскурсия «Москва литературная»</p>
       </div>
       <div class="catalog__conteiner-days">
         <p class="catalog__days">1 день</p>
       </div>
       <div class="catalog__download-container">
-        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-transit.doc"><img
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-literature.doc"><img
             src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
             class="catalog__download-icon"></a>
-        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-transit.pdf" target="_blank"><img
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-literature.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/school.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/economy.php"); ?>
+    </div>
+
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/school-tours/1-day-war.php" class="catalog__link">«Город-герой Москва»</a>
+        <p class="catalog__text">музей Победы, военный музей на выбор: бункер Сталина в Измайлово, музей обороны Москвы, центральный пограничный музей ФСБ России, тематическая автобусная экскурсия «Город-герой Москва», пешеходная по Красной площади</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">1 день</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-war.doc"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-war.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/school.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/economy.php"); ?>
+    </div>
+
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/school-tours/1-day-capital-classic.php" class="catalog__link">«Москва — столица нашей Родины»</a>
+        <p class="catalog__text">Кремль, автобусная обзорная экскурсия по Москве, пешеходная экскурсия по Красной площади, пешеходная экскурсия по территории парка Зарядье</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">1 день</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-capital-classic.doc"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-capital-classic.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/school.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/economy.php"); ?>
+    </div>
+
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/school-tours/1-day-palaces.php" class="catalog__link">«Дворцы и усадьбы столицы»</a>
+        <p class="catalog__text">Кусково: Дворец, парк, оранжерея</p>
+        <p class="catalog__text">Коломенское: территория, Передние врата</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">1 день</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-palaces.doc"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-palaces.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/school.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/economy.php"); ?>
+    </div>
+
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/school-tours/1-day-cinema.php" class="catalog__link">«Жизнь моя, кинематограф...»</a>
+        <p class="catalog__text">Мосфильм, канатная дорога, тематическая автобусная экскурсия по Москве «Жизнь моя, кинематограф...»</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">1 день</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-cinema.doc"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-cinema.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/school.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/comfort.php"); ?>
+    </div>
+    <a name="incoming"></a>
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/school-tours/1-day-VDNH.php" class="catalog__link">«ВДНХ: увидеть, удивиться, узнать»</a>
+        <p class="catalog__text">музей космонавтики, архитектурный макет Москвы, пешеходная экскурсия по ВДНХ</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">1 день</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-VDNH.pdf"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-school-groups-1-day-VDNH.pdf" target="_blank"><img
             src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
             class="catalog__download-icon"></a>
       </div>
@@ -389,7 +498,7 @@
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
         <p class="catalog__link">Экскурсии на иностранных языках</p>
-        <p class="catalog__text">Для индивидуальных туристов от 1 до 15 человек</p>
+        <a href="https://north-empire.com/pages/incoming-tours/FIT.php" class="catalog__link">Для индивидуальных туристов от 1 до 15 человек</a>
       </div>
       <div class="catalog__conteiner-days">
         <p class="catalog__days">1 день</p>
@@ -411,7 +520,7 @@
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
         <p class="catalog__link">Экскурсии на иностранных языках</p>
-        <p class="catalog__text">Для групп от 15+1 до 45+1 человек</p>
+        <a href="https://north-empire.com/pages/incoming-tours/FIT-groups.php" class="catalog__link">Для групп от 15+1 до 45+1 человек</a>
       </div>
       <div class="catalog__conteiner-days">
         <p class="catalog__days">1 день</p>
@@ -430,10 +539,10 @@
       <?php include("../blocks/catalog/comfort.php"); ?>
     </div>
 
-    
+
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">Классический тур</p>
+      <a href="https://north-empire.com/pages/group-tours/classic-tour-2-days.php" class="catalog__link">Классический тур</a>
         <p class="catalog__text">Кремль, художественный музей на выбор: Пушкинский, Третьяковская галерея, музей русского импрессионизма</p>
         <p class="catalog__text">2 варианта цены: с автобусом и на собственном транспорте</p>
       </div>
@@ -456,7 +565,7 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">Классический тур</p>
+      <a href="https://north-empire.com/pages/group-tours/3-days-classic-tour.php" class="catalog__link">Классический тур</a>
         <p class="catalog__text">Кремль, художественный музей на выбор: Пушкинский, Третьяковская галерея, музей русского импрессионизма, Мосфильм</p>
         <p class="catalog__text">2 варианта цены: с автобусом и на собственном транспорте</p>
       </div>
@@ -479,35 +588,12 @@
 
     <div class="catalog__row">
       <div class="catalog__conteiner-text">
-        <p class="catalog__link">Эконом тур</p>
+      <a href="https://north-empire.com/pages/group-tours/3-days-economy-tour.php" class="catalog__link">Эконом-тур</a>
         <p class="catalog__text">Архитектурный макет Москвы</p>
         <p class="catalog__text">2 варианта цены: с автобусом и на собственном транспорте</p>
       </div>
       <div class="catalog__conteiner-days">
         <p class="catalog__days">3 дня</p>
-      </div>
-      <div class="catalog__download-container">
-        <a href="https://north-empire.com/tour-programs/2020-organized-economy-tour-2-days.doc"><img
-            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
-            class="catalog__download-icon"></a>
-        <a href="https://north-empire.com/tour-programs/2020-organized-economy-tour-2-days.pdf" target="_blank"><img
-            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
-            class="catalog__download-icon"></a>
-      </div>
-      <?php include("../blocks/catalog/adults.php"); ?>
-      <?php include("../blocks/catalog/all_seasons.php"); ?>
-      <?php include("../blocks/catalog/group.php"); ?>
-      <?php include("../blocks/catalog/economy.php"); ?>
-    </div>
-    
-    <div class="catalog__row">
-      <div class="catalog__conteiner-text">
-        <p class="catalog__link">Эконом тур</p>
-        <p class="catalog__text">Архитектурный макет Москвы</p>
-        <p class="catalog__text">2 варианта цены: с автобусом и на собственном транспорте</p>
-      </div>
-      <div class="catalog__conteiner-days">
-        <p class="catalog__days">2 дня</p>
       </div>
       <div class="catalog__download-container">
         <a href="https://north-empire.com/tour-programs/2020-organized-economy-tour-3-days.doc"><img
@@ -522,6 +608,98 @@
       <?php include("../blocks/catalog/group.php"); ?>
       <?php include("../blocks/catalog/economy.php"); ?>
     </div>
+
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/group-tours/2-days-economy-tour.php" class="catalog__link">Эконом-тур</a>
+        <p class="catalog__text">Архитектурный макет Москвы</p>
+        <p class="catalog__text">2 варианта цены: с автобусом и на собственном транспорте</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">2 дня</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-organized-economy-tour-2-days.doc"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-organized-economy-tour-2-days.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/adults.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/economy.php"); ?>
+    </div>
+
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/group-tours/3-days-mini-group-tour.php" class="catalog__link">Тур для мини-групп от 5 до 15 человек</a>
+        <p class="catalog__text">Проживание в гостиницах 4* в центре города</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">3 дня</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-organized-mini-groups-3-days.doc"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-organized-mini-groups-3-days.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/adults.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/economy.php"); ?>
+    </div>
+
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/group-tours/2-days-literature-tour.php" class="catalog__link">«Литературная Москва»</a>
+        <p class="catalog__text">Проживание в гостиницах 4* в центре города</p>
+        <p class="catalog__text">В программе тура необычные музеи и авторские экскурсии.</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">2 дня</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-organized-literature-tour-2-days.doc"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-organized-literature-tour-2-days.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/adults.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/comfort.php"); ?>
+    </div>
+
+    <div class="catalog__row">
+      <div class="catalog__conteiner-text">
+      <a href="https://north-empire.com/pages/group-tours/2-days-history-tour.php" class="catalog__link">«История Москвы в шедеврах живописи и архитектуры»</a>
+        <p class="catalog__text">Проживание в гостиницах 4* в центре города</p>
+        <p class="catalog__text">В программе тематического тура необычные музеи и авторские экскурсии.</p>
+      </div>
+      <div class="catalog__conteiner-days">
+        <p class="catalog__days">2 дня</p>
+      </div>
+      <div class="catalog__download-container">
+        <a href="https://north-empire.com/tour-programs/2020-organized-history-tour-2-days.doc"><img
+            src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
+            class="catalog__download-icon"></a>
+        <a href="https://north-empire.com/tour-programs/2020-organized-history-tour-2-days.pdf" target="_blank"><img
+            src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
+            class="catalog__download-icon"></a>
+      </div>
+      <?php include("../blocks/catalog/adults.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/group.php"); ?>
+      <?php include("../blocks/catalog/comfort.php"); ?>
+    </div>
+
     <a name="individual"></a>
     <div class="catalog__row">
     <div class="catalog__conteiner-text">
@@ -544,15 +722,15 @@
             src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
             class="catalog__download-icon"></a>
       </div>
-      <?php include("../blocks/catalog/sborny_tur.php"); ?>
-      <?php include("../blocks/catalog/all_seasons.php"); ?>
       <?php include("../blocks/catalog/individual.php"); ?>
+      <?php include("../blocks/catalog/all_seasons.php"); ?>
+      <?php include("../blocks/catalog/sborny_tur.php"); ?>
       <?php include("../blocks/catalog/economy.php"); ?>
     </div>
 
     <div class="catalog__row">
     <div class="catalog__conteiner-text">
-        <p class="catalog__link">Семейный тур (зима)</p>
+    <a href="https://north-empire.com/pages/individual-tours/family-winter.php" class="catalog__link">Семейный тур (зима)</a>
         <p class="catalog__text">для детей, их родителей, бабушек и дедушек.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -569,15 +747,15 @@
             src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
             class="catalog__download-icon"></a>
       </div>
-      <?php include("../blocks/catalog/sborny_tur.php"); ?>
-      <?php include("../blocks/catalog/winter.php"); ?>
       <?php include("../blocks/catalog/family.php"); ?>
+      <?php include("../blocks/catalog/winter.php"); ?>
+      <?php include("../blocks/catalog/sborny_tur.php"); ?>
       <?php include("../blocks/catalog/comfort.php"); ?>
     </div>
 
     <div class="catalog__row">
     <div class="catalog__conteiner-text">
-        <p class="catalog__link">Семейный тур (осень)</p>
+        <a href="https://north-empire.com/pages/individual-tours/family-autumn.php" class="catalog__link">Семейный тур (осень)</a>
         <p class="catalog__text">для детей, их родителей, бабушек и дедушек.</p>
       </div>
       <div class="catalog__conteiner-days">
@@ -587,20 +765,21 @@
         <p class="catalog__days">5 дней</p>
       </div>
       <div class="catalog__download-container">
-        <a href="https://north-empire.com/tour-programs/2021-family-autumn.doc"><img
+        <a href="https://north-empire.com/tour-programs/2020-family-autumn.doc"><img
             src="../../images/icons/download-doc.png" alt="Пиктограмма скачать в текстовом формате"
             class="catalog__download-icon"></a>
-        <a href="https://north-empire.com/tour-programs/2021-family-autumn.pdf" target="_blank"><img
+        <a href="https://north-empire.com/tour-programs/2020-family-autumn.pdf" target="_blank"><img
             src="../../images/icons/download-pdf.png" alt="Пиктограмма скачать в формате pdf"
             class="catalog__download-icon"></a>
       </div>
-      <?php include("../blocks/catalog/sborny_tur.php"); ?>
-      <?php include("../blocks/catalog/autumn.php"); ?>
       <?php include("../blocks/catalog/family.php"); ?>
+      <?php include("../blocks/catalog/autumn.php"); ?>
+      <?php include("../blocks/catalog/sborny_tur.php"); ?>
       <?php include("../blocks/catalog/comfort.php"); ?>
     </div>
 
   </section>
+  <?php include("../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

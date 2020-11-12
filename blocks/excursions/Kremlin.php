@@ -1,13 +1,10 @@
 <div class="day__container">
-        <img class="card__image" src="../../images/icons/Kremlin.png" alt="Пиктограмма окончание экскурсии">
-        <div class="card__description">
-          <h4 class="card__title">Кремль.</h4>
-          <p class="card__text">Экскурсия по территории Кремля с посещением 1 собора. Вы увидите: Царь-колокол,
-            Царь-пушку, колокольню «Иван Великий», архитектурный ансамбль Соборной площади. В одном из соборов
-            (Успенский или Архангельский или Благовещенский) вы ознакомитесь с системой росписи и убранством
-            православного храма.</p>
-          <p class="card__text">Важно: 80% экскурсии проходит на улице!</p>
-        </div>
-        <p class="card__text spacing">Продолжительность:
-          <span class="card__span">1,5 часа.</span></p>
+  <img class="card__image card__image_small" src="../../images/icons/Kremlin.png" alt="Пиктограмма окончание экскурсии">
+  <div class="card__description card__description_big">
+    <h4 class="card__title">Кремль.</h4>
+    <p class="card__text">Экскурсия по&nbsp;территории Кремля с&nbsp;посещением 1&nbsp;собора. Вы&nbsp;увидите: Царь-колокол, Царь-пушку, колокольню &laquo;Иван Великий&raquo;, архитектурный ансамбль Соборной площади. В&nbsp;одном из&nbsp;соборов (Успенский или Архангельский или Благовещенский) вы&nbsp;ознакомитесь с&nbsp;системой росписи и&nbsp;убранством
+православного храма.</p>
+    <p class="card__text">Важно: 80% экскурсии проходит на&nbsp;улице!</p>
+    <p class="card__text card__text_right spacing">Продолжительность: 1,5&nbsp;часа.</p>
+  </div>
 </div>

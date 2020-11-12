@@ -1,9 +1,8 @@
 <div class="day__container">
-        <img class="card__image" src="../../images/icons/walk.jpg" alt="Пиктограмма пешеходная экскурсия">
-        <div class="card__description">
+        <img class="card__image card__image_small" src="../../images/icons/walk.jpg" alt="Пиктограмма пешеходная экскурсия">
+        <div class="card__description card__description_big">
           <h4 class="card__title">Георгиевская улица.</h4>
           <p class="card__text">Во время прогулки по Георгиевской улице, вы увидите памятник владимирской вишне, памятник пожарным (здесь действительно находится пожарная часть), шалопая и филёра (сыщика), художнику с мольбертом и аптекарю, «приглашающему» прохожих в Старую аптеку. Здесь можно купить сувениры, зайти в кузницу, посидеть на скамеечках и полюбоваться видами.</p>
+          <p class="card__text card__text_right spacing">Продолжительность: 30&nbsp;минут.</p>
         </div>
-        <p class="card__text spacing">Продолжительность:
-          <span class="card__span">30 минут.</span></p>
 </div>

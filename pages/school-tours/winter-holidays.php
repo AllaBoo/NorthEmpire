@@ -29,10 +29,10 @@
     <nav class="heading__nav">
       <ul class="heading__list">
         <li class="heading__list-item">
-          <a href=" #program" target="_blank" class="heading__anchor">&nbsp;Программа тура&nbsp;</a>
+          <a href=" #program" class="heading__anchor">&nbsp;Программа тура&nbsp;</a>
         </li>
         <li class="heading__list-item">
-          <a href=" #price" target="_blank" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
+          <a href=" #price" class="heading__anchor">&nbsp;Стоимость тура&nbsp;</a>
         </li>
         <li class="heading__list-item">
           <a href="https://north-empire.com/tour-programs/2021-NewYear-Moscow-school-tur-5i1.pdf" target="_blank"
@@ -45,9 +45,12 @@
       </ul>
     </nav>
   </section>
-
+  <div class="skew-cc"></div>
+  <section class="white-block">
+  <h2 class="title">Что такое сборный тур 5+1? Кому он Подходит?</h2>
   <?php include("../../blocks/parts-of-pages/5i1-description.php"); ?>
-
+  </section>
+  <div class="skew-c"></div>
   <section class="colour-block">
     <h2 class="title">Преимущества сборного тура</h2>
     <div class="cards">
@@ -63,54 +66,59 @@
     </div>
   </section>
   <div class="skew-cc"></div>
+
   <section class="white-block">
-    <a name="form" class="anchor"></a>
-    <h2 class="title">Краткая информация о туре</h2>
-    <div class="info__container">
-      <div class="info__cards">
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/barcode.png" alt="Пиктограмма название тура">
-          <p class="info__title">Название:</p>
-          <p class="info__description">«Зимние (новогодние) каникулы в Москве»</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/sborny.jpg" alt="Пиктограмма тип тура">
-          <p class="info__title">Тип:</p>
-          <p class="info__description">сборный тур</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/school.jpg" alt="Пиктограмма школьник">
-          <p class="info__title">Туристы:</p>
-          <p class="info__description">школьники</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/calendar_horizontal.png" alt="Пиктограмма календарь тура">
-          <p class="info__title">Даты:</p>
-          <p class="info__description">02 – 10 января 2021 года</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/calendar_horizontal.png" alt="Пиктограмма календарь тура">
-          <p class="info__title">Дней:</p>
-          <p class="info__description">от 2 до 5 дней (заезд и выезд в любой день)</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/spoon-fork.png" alt="Пиктограмма питание в туре">
-          <p class="info__title">Питание:</p>
-          <p class="info__description">2-разовое</p>
-        </div>
-        <div class="info__card">
-          <img class="info__pic" src="../../images/icons/bus.png" alt="Пиктограмма транспорт в туре">
-          <p class="info__title">Автобус:</p>
-          <p class="info__description">ежедневно</p>
+  <h2 class="title">Краткая информация о туре</h2>
+  <div class="tour-list__icons">
+  <?php include("../../blocks/icons/5i1.php"); ?>
+    <?php include("../../blocks/icons/school.php"); ?>
+    <p class="card__text card__text_center">«Зимние каникулы в&nbsp;Москве»</p>
+    <?php include("../../blocks/icons/comfort.php"); ?>
+    <?php include("../../blocks/icons/winter.php"); ?>
+  </div>
+  <div class="info">
+    <div class="card card_half">
+      <div class="card">
+        <img class="card__image" src="../../images/icons/calendar.jpg" alt="Календарь">
+        <div class="card__description">
+          <h4 class="card__title">Даты:</h4>
+          <p class="card__text">02 – 10 января 2021 года</p>
+          <p class="card__text">заезд и выезд в любой день</p>
+          <p class="card__text">от 2 до 5 дней</p>
         </div>
       </div>
-
-      <div class="info__museums">
-        <div class="info__card info__card_museums">
-          <img class="info__pic" src="../../images/icons/map.png" alt="Объекты показа">
-          <p class="info__title">Музеи:</p>
-
+      <div class="card">
+        <img class="card__image" src="../../images/icons/meel.png" alt="Питание">
+        <div class="card__description">
+          <h4 class="card__title">Питание:</h4>
+          <p class="card__text">2-разовое</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="../../images/icons/bus.png" alt="Автобус">
+        <div class="card__description">
+          <h4 class="card__title">Автобус:</h4>
+          <p class="card__text">каждый день</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="../../images/icons/picking.png" alt="Экскурсии">
+        <div class="card__description">
+          <h4 class="card__title">Экскурсии:</h4>
           <ul class="info__museums-list">
+            <li class="info__museum">автобусная обзорная по Москве</li>
+            <li class="info__museum">пешеходная по Красной площади</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card_half">
+    <div class="card">
+      <img class="card__image" src="../../images/icons/map.png" alt="Объекты показа">
+      <div class="card__description">
+        <h4 class="card__title">Музеи:</h4>
+        <ul class="info__museums-list">
             <li class="info__museum">Кремль</li>
             <li class="info__museum">музей Истории Москвы</li>
             <li class="info__museum">«Мосфильм»</li>
@@ -120,11 +128,12 @@
             <li class="info__museum">Музей Победы</li>
             <li class="info__museum">Дворец царя Алексея Михайловича в Коломенском</li>
           </ul>
-        </div>
+      </div>
       </div>
     </div>
-  </section>
 
+  </div>
+</section>
   <div class="skew-c"></div>
   <main class="colour-block">
     <a name="program"></a>
@@ -153,7 +162,9 @@
       </summary>
       <?php include("../../blocks/excursions/meet_5i1.php"); ?>
       <?php include("../../blocks/excursions/breakfast_or.php"); ?>
+      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
       <?php include("../../blocks/excursions/Mosfilm.php"); ?>
+      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
       <?php include("../../blocks/excursions/war_Victory.php"); ?>
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <?php include("../../blocks/excursions/finish_5i1.php"); ?>
@@ -166,6 +177,7 @@
       </summary>
       <?php include("../../blocks/excursions/meet_5i1.php"); ?>
       <?php include("../../blocks/excursions/breakfast_or.php"); ?>
+      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
       <?php include("../../blocks/excursions/Red-Square.php"); ?>
       <?php include("../../blocks/excursions/Kremlin.php"); ?>
       <?php include("../../blocks/excursions/dinner.php"); ?>
@@ -179,7 +191,9 @@
       </summary>
       <?php include("../../blocks/excursions/meet_5i1.php"); ?>
       <?php include("../../blocks/excursions/breakfast_or.php"); ?>
+      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
       <?php include("../../blocks/excursions/DCAM.php"); ?>
+      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
       <?php include("../../blocks/excursions/Story.php"); ?>
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <?php include("../../blocks/excursions/finish_5i1.php"); ?>
@@ -192,7 +206,10 @@
       </summary>
       <?php include("../../blocks/excursions/meet_5i1.php"); ?>
       <?php include("../../blocks/excursions/breakfast_or.php"); ?>
+      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
       <?php include("../../blocks/excursions/Tretyakovka.php"); ?>
+      <?php include("../../blocks/excursions/transfer-to-museum.php"); ?>
+      <?php include("../../blocks/excursions/Arbat.php"); ?>
       <?php include("../../blocks/excursions/dinner.php"); ?>
       <?php include("../../blocks/excursions/finish_5i1.php"); ?>
     </details>
@@ -215,7 +232,7 @@
     <p class="table__text"><span class="table__span">«ВАЛС» 2*</span> блоки 2+2, 2+1, 2+3</p>
     <p class="table__text"><span class="table__span">метро «Павелецкая»</span> 7 минут пешком</p>
     <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -254,7 +271,7 @@
           <p class="table__text"><span class="table__span">«Аэрополис» 3*</span> номера с удобствами</p>
           <p class="table__text"><span class="table__span">метро «Аэропорт»</span> 15 минут пешком</p>
           <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -290,7 +307,7 @@
     <p class="table__text"><span class="table__span">«Парк отель «Фили» 3*</span> номера с удобствами</p>
             <p class="table__text"><span class="table__span">метро «Багратионовская»</span> 15 минут пешком</p>
             <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -326,7 +343,7 @@
             <p class="table__text"><span class="table__span">«Космос» 3*</span> номера с удобствами</p>
             <p class="table__text"><span class="table__span">метро «ВДНХ»</span> 0 минут пешком</p>
             <p class="table__text">завтрак шведский стол</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -360,7 +377,7 @@
     <table id="table-mobile">
     <caption>
     <p class="table__text">Доплата за взрослых за весь тур, нетто</p>
-    </caption> 
+    </caption>
       <thead>
         <tr>
         <th>
@@ -532,9 +549,11 @@
       </ul>
     </details>
   </section>
-
-  <?php include("../../blocks/parts-of-pages/lead-forms.php"); ?>
-
+  <div class="skew-c"></div>
+  <section class="colour-block">
+    <?php include("../../blocks/parts-of-pages/lead-form.php"); ?>
+  </section>
+  <?php include("../../blocks/parts-of-pages/footer.php"); ?>
 </body>
 
 </html>

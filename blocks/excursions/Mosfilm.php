@@ -1,11 +1,8 @@
 <div class="day__container">
-        <img class="card__image" src="../../images/icons/sinema.png" alt="Пиктограмма встреча с гидом">
-        <div class="card__description">
-          <h4 class="card__title">Киностудия «Мосфильм».</h4>
-          <p class="card__text">Вы узнаете о киносъёмочном процессе и работе режиссеров, гримеров, декораторов и
-            костюмеров. Вы посетите площадку с декорациями старой Москвы и киносъемочный павильон, увидите эскизы к
-            фильмам, операторскую технику, коллекцию ретро-автомобилей и карет, полюбуетесь на костюмы.</p>
-        </div>
-        <p class="card__text spacing">Продолжительность:
-          <span class="card__span">2 часа.</span></p>
+  <img class="card__image card__image_small" src="../../images/icons/sinema.png" alt="Пиктограмма встреча с гидом">
+    <div class="card__description card__description_big">
+      <h4 class="card__title">Киностудия «Мосфильм».</h4>
+      <p class="card__text">Вы&nbsp;узнаете о&nbsp;киносъёмочном процессе и&nbsp;работе режиссеров, гримеров, декораторов и&nbsp;костюмеров. Вы&nbsp;посетите площадку с&nbsp;декорациями старой Москвы и&nbsp;киносъемочный павильон, увидите эскизы к&nbsp;фильмам, операторскую технику, коллекцию ретро-автомобилей и&nbsp;карет, полюбуетесь на&nbsp;костюмы.</p>
+      <p class="card__text card__text_right spacing">Продолжительность: 1,5&nbsp;часа.</p>
+    </div>
 </div>
